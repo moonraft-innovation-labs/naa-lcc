@@ -1,0 +1,328 @@
+.feature_centre_excellence_wrapper {
+  display: flex;
+}
+
+.feature_centre_excellence_wrapper_links {
+  width: 22.7%;
+  padding: 48px 35px 0px 120px;
+  background-color: rgba(234, 245, 245, 0.8);
+}
+
+.feature_centre_excellence_wrapper_links ul li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  color: var(--black);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.feature_centre_excellence_wrapper_links ul .active_profession a {
+  font-weight: 700;
+  color: var(--amaranth);
+}
+
+.active_profession a::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 8px;
+  background-image: url("../assets/images/active_right_arrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.feature_centre_excellence_wrapper_details {
+  width: 100%;
+}
+
+.feature_centre_excellence_wrapper_content {
+  position: relative;
+}
+
+.feature_centre_excellence_wrapper_content img {
+  height: 400px;
+  width: 100%;
+}
+
+.feature_centre_excellence_wrapper_background {
+  position: absolute;
+  width: 42%;
+  left: 56px;
+  top: 140px;
+}
+
+.feature_centre_excellence_wrapper_title {
+  font-size: 56px;
+  color: var(--white);
+  font-weight: bold;
+  margin-bottom: 32px;
+  line-height: 120%;
+}
+
+.feature_centre_excellence_wrapper_sub-title {
+  font-size: 18px;
+  color: var(--white);
+  line-height: 160%;
+}
+
+.feature_centre_excellence_wrapper_upcoming {
+  padding: 70px 120px 80px 56px;
+}
+
+.centre_excellence_journey_subtitle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 56px;
+  border-bottom: 1px solid rgba(230, 42, 80, 0.2);
+}
+
+.centre_excellence_journey_subtitle p:first-child,
+.feature_centre_excellence_wrapper_development_terms p:first-child,
+.centre_excellence_project_board_sub_title p:first-child {
+  margin-right: 56px;
+}
+
+.centre_excellence_journey_subtitle p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--black);
+}
+
+.feature_centre_excellence_wrapper_development {
+  padding-top: 56px;
+}
+
+.feature_centre_excellence_wrapper_development .title {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  color: var(--blueDianne);
+}
+
+.feature_centre_excellence_wrapper_development .sub_title {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  color: var(--blueDianne);
+  padding-top: 56px;
+}
+
+.feature_centre_excellence_wrapper_development_terms {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.feature_centre_excellence_wrapper_development_terms p,
+.centre_excellence_project_board_sub_title p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--black);
+}
+
+.feature_centre_excellence_wrapper_development_membership .sub_title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--black);
+  padding: 40px 0;
+}
+
+.feature_centre_excellence_wrapper_development_membership .sub_title_bold {
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 160%;
+  color: var(--black);
+}
+
+.feature_centre_excellence_wrapper_development_membership ul {
+  margin-left: 18px;
+}
+
+.feature_centre_excellence_wrapper_development_membership ul li::before {
+  content: "\2022";
+  color: var(--black);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.feature_centre_excellence_wrapper_development_membership ul li {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--black);
+}
+.centre_excellence_table_details {
+  height: 700px;
+  overflow-y: scroll;
+}
+
+.centre_excellence_table_details th {
+  padding: 24px;
+  background-color: var(--eden);
+  color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 0.16px;
+  text-align: left;
+  border-left: 1px solid var(--catskillWhite);
+  white-space: nowrap;
+}
+
+.centre_excellence_table_details th:first-child {
+  border-radius: 12px 0 0;
+}
+
+.centre_excellence_table_details th:last-child {
+  border-radius: 0 12px 0 0;
+}
+
+.centre_excellence_table_details td {
+  padding: 24px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.16px;
+  color: var(--black);
+  border-left: 1px solid var(--catskillWhite);
+}
+
+.centre_excellence_table_details tr:nth-child(odd) {
+  background-color: var(--blackHaze);
+}
+
+.centre_excellence_table_details tr:last-child td:first-child {
+  border-radius: 0 0 0 12px;
+}
+
+.centre_excellence_table_details tr:last-child td:last-child {
+  border-radius: 0 0 12px 0;
+}
+
+.centre_excellence_table_details .sub_title {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.16px;
+  padding: 56px 0 42px;
+  color: var(--tuatara);
+}
+
+.centre_excellence_table_details table {
+  width: 100%;
+}
+
+.centre_excellence_project_board_sub_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 56px;
+}
+
+.centre_excellence_project_board_details .title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  color: var(--black);
+  margin-bottom: 24px;
+}
+.centre_excellence_project_board_details ol {
+  list-style: auto;
+  margin-left: 16px;
+}
+.centre_excellence_project_board_details ol li {
+  color: var(--black);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.centre_excellence_project_board_details {
+  padding-bottom: 56px;
+  border-bottom: 1px solid rgba(230, 42, 80, 0.2);
+}
+
+.feature_centre_excellence_wrapper_project .title {
+  padding: 40px 0 56px;
+}
+
+.feature_centre_excellence_wrapper_development_terms p span {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+.centre_excellence_project_board_details .sub_list {
+  list-style: lower-alpha;
+  margin-left: 20px;
+}
+/* Media Query */
+@media screen and (max-width: 767px) {
+  .feature_centre_excellence_wrapper_links {
+    display: none;
+  }
+
+  .feature_centre_excellence_wrapper_content img {
+    height: 410px;
+  }
+
+  .feature_centre_excellence_wrapper_background {
+    top: 178px;
+    left: 24px;
+    width: calc(100% - 48px);
+  }
+
+  .feature_centre_excellence_wrapper_title {
+    font-size: 36px;
+  }
+
+  .feature_centre_excellence_wrapper_upcoming {
+    padding: 40px 24px;
+  }
+
+  .centre_excellence_journey_subtitle,
+  .feature_centre_excellence_wrapper_development_terms,
+  .centre_excellence_project_board_sub_title {
+    display: block;
+  }
+
+  .centre_excellence_journey_subtitle p:first-child,
+  .feature_centre_excellence_wrapper_development_terms p:first-child,
+  .centre_excellence_project_board_sub_title p:first-child {
+    margin: 0 0 24px;
+  }
+
+  .centre_excellence_journey_subtitle {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(230, 42, 80, 0.2);
+  }
+}
+
+/* Media Query */
+@media screen and (min-width: 768px) and (max-width: 1430px) {
+  .feature_centre_excellence_wrapper_links {
+    padding: 50px 50px 0px 8.34%;
+  }
+  .feature_centre_excellence_wrapper_upcoming {
+    padding: 56px 10.5% 80px 56px;
+  }
+  .feature_centre_excellence_wrapper_background {
+    width: 65%;
+  }
+}
