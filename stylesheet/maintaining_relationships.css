@@ -1,11 +1,13 @@
 .feature_maintain_relationship_wrapper {
   display: flex;
 }
+
 .feature_maintain_relationship_support_wrapper_links {
   width: 22.7%;
   padding: 48px 35px 0px 120px;
   background-color: rgba(234, 245, 245, 0.8);
 }
+
 .feature_maintain_relationship_support_wrapper_links ul li a {
   display: flex;
   justify-content: space-between;
@@ -17,10 +19,12 @@
   font-weight: 400;
   line-height: 24px;
 }
+
 .feature_maintain_relationship_support_wrapper_links ul .active_profession a {
   font-weight: 700;
   color: var(--amaranth);
 }
+
 .active_profession a::after {
   content: "";
   display: inline-block;
@@ -31,22 +35,27 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 .feature_maintaining_relationship_wrapper_details {
   width: 100%;
 }
+
 .feature_maintaining_relationship_wrapper_content {
   position: relative;
 }
+
 .feature_maintaining_relationship_wrapper_content img {
   height: 400px;
   width: 100%;
 }
+
 .feature_maintaining_relationship_wrapper_background {
   position: absolute;
-  width: 42%;
+  width: 60%;
   left: 56px;
   top: 140px;
 }
+
 .feature_maintaining_relationship_wrapper_title {
   font-size: 56px;
   color: var(--white);
@@ -54,23 +63,25 @@
   margin-bottom: 32px;
   line-height: 120%;
 }
+
 .feature_maintaining_relationship_wrapper_subtitle {
   font-size: 18px;
   color: var(--white);
   line-height: 160%;
 }
+
 .feature_maintaining_relationship_wrapper_upcoming {
   padding: 70px 120px 80px 56px;
 }
+
 .maintaining_relationship_journey_subtitle {
-  /* display: flex;
-    justify-content: space-between; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 55px;
   padding-bottom: 56px;
   border-bottom: 1px solid rgba(230, 42, 80, 0.2);
 }
+
 .maintaining_relationship_journey_subtitle p {
   font-size: 18px;
   font-weight: 400;
@@ -95,12 +106,15 @@
   border-left: 1px solid var(--catskillWhite);
   white-space: nowrap;
 }
+
 .adoption_support_journey_table_details th:first-child {
   border-radius: 12px 0 0;
 }
+
 .adoption_support_journey_table_details th:last-child {
   border-radius: 0 12px 0 0;
 }
+
 .adoption_support_journey_table_details td {
   padding: 12px 16px;
   font-size: 16px;
@@ -111,18 +125,23 @@
   color: var(--black);
   border-left: 1px solid var(--catskillWhite);
 }
+
 .adoption_support_journey_table_details tr:nth-child(odd) {
   background-color: var(--blackHaze);
 }
+
 .adoption_support_journey_table_details tr:last-child td:first-child {
   border-radius: 0 0 0 12px;
 }
+
 .adoption_support_journey_table_details tr:last-child td:last-child {
   border-radius: 0 0 12px 0;
 }
+
 .adoption_support_journey_table_details {
   padding-top: 56px;
 }
+
 .adoption_support_journey_table_details p {
   font-size: 18px;
   font-style: normal;
@@ -136,15 +155,18 @@
   padding: 56px 0px;
   border-bottom: 1px solid rgba(230, 42, 80, 0.2);
 }
+
 .feature_maintaing_relationship_links_details ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .feature_maintaing_relationship_links_details ul li {
   width: 50%;
 }
+
 .feature_maintaing_relationship_links_details a {
   display: flex;
   margin-bottom: 32px;
@@ -156,11 +178,12 @@
   text-decoration-thickness: 1px;
   color: var(--blueDianne);
 }
+
 .feature_maintaing_relationship_links_details a::before {
   content: "";
   display: inline-block;
   width: 4px;
-  height: 24px;
+  /* height: 24px; */
   margin-right: 20px;
   background-color: var(--royalPurple);
 }
@@ -199,9 +222,11 @@
   display: flex;
   justify-content: space-between;
 }
+
 .feature_maintain_relationship_content p:first-child {
   margin-right: 56px;
 }
+
 .feature_maintain_relationship_content .subtitle {
   font-size: 18px;
   font-style: normal;
@@ -210,34 +235,131 @@
   color: var(--black);
 }
 
+.feature_maintain_change .feature_maintain_relationship_content {
+  display: block;
+}
+
+.feature_maintain_change .feature_maintain_relationship_content p:first-child {
+  margin-right: 0;
+  margin-bottom: 24px;
+}
+
+.feature_maintain_change .feature_maintain_relationship_content ul {
+  margin-left: 18px;
+}
+
+.feature_maintain_change .feature_maintain_relationship_content ul li::before {
+  content: "\2022";
+  color: var(--black);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.feature_maintain_change .feature_maintain_relationship_content ul li {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--black);
+}
+
+#letter_swap_wrapper .feature_maintain_relationship_content,
+#lifelong_wrapper .feature_maintain_relationship_content {
+  display: block;
+}
+
+#letter_swap_wrapper .feature_maintain_relationship_content .subtitle,
+#lifelong_wrapper .feature_maintain_relationship_content .subtitle {
+  margin: 0 0 56px 0;
+}
+
+#letter_swap_wrapper .feature_maintain_relationship_content div,
+#lifelong_wrapper .feature_maintain_relationship_content div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#letter_swap_wrapper .feature_maintain_relationship_content div p,
+#lifelong_wrapper .feature_maintain_relationship_content div p {
+  background-color: var(--catskillWhite);
+  border-radius: 20px;
+  padding: 24px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--black);
+}
+
+#letter_swap_wrapper
+  .feature_maintain_relationship_content
+  .letter_swap_wrapper_last_child {
+  background-color: var(--catskillWhite);
+  border-radius: 20px;
+  padding: 24px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--black);
+  margin-top: 32px;
+}
+
+#lifelong_wrapper .feature_maintain_relationship_content div p {
+  margin: 0 56px 32px 0;
+  width: 46%;
+}
+
+#lifelong_wrapper .feature_maintain_relationship_content div p:last-child {
+  margin-bottom: 0;
+}
+
+#lifelong_wrapper .feature_maintain_relationship_content div p:nth-child(2),
+#lifelong_wrapper .feature_maintain_relationship_content div p:nth-child(4) {
+  margin-right: 0;
+}
+
+#lifelong_wrapper .feature_maintain_relationship_content div {
+  flex-wrap: wrap;
+}
+
 /* Media Query */
 @media screen and (max-width: 767px) {
   .feature_maintain_relationship_support_wrapper_links {
     display: none;
   }
+
   .feature_maintaining_relationship_wrapper_content img {
     height: 410px;
   }
+
   .feature_maintaining_relationship_wrapper_background {
     top: 178px;
     left: 24px;
     width: calc(100% - 48px);
   }
+
   .feature_maintaining_relationship_wrapper_title {
     font-size: 36px;
   }
+
   .feature_maintaining_relationship_wrapper_upcoming {
     padding: 40px 24px;
   }
+
   .maintaining_relationship_journey_subtitle {
     display: block;
   }
+
   .maintaining_relationship_journey_subtitle p:first-child {
     margin: 0;
   }
+
   .maintaining_relationship_journey_subtitle {
     padding-bottom: 40px;
   }
+
   .adoption_support_journey_table_details {
     width: 100%;
     overflow-x: scroll;
@@ -250,6 +372,7 @@
     font-size: 28px;
     position: relative;
   }
+
   .title_maintain::after {
     content: "";
     display: inline-block;
@@ -262,10 +385,12 @@
     position: absolute;
     right: 0;
   }
+
   .title_maintain::before {
     height: 36px;
     width: 0px;
   }
+
   .title_maintain {
     padding: 40px 0 0;
   }
@@ -285,43 +410,99 @@
   .feature_maintain_relationship_desc_wrapper .title_maintain span {
     width: 80%;
   }
+
   .feature_maintain_relationship_desc_wrapper .title_maintain {
     margin-bottom: 24px;
   }
+
   /* toggling */
 
   .toggle_title_forward::after,
   .toggle_title_letter::after,
   .toggle_title_iasa::after,
   .toggle_title_links::after,
-  .toggle_title_birth_family ::after {
+  .toggle_title_birth_family::after {
     transform: rotate(270deg);
   }
 
   .feature_maintain_relationship_content {
     display: block;
   }
+
   .feature_maintain_relationship_content p:first-child {
     margin: 40px 0;
   }
-  .feature_maintain_relationship_content {
+
+  .feature_maintain_change .feature_maintain_relationship_content,
+  #letter_swap_wrapper .feature_maintain_relationship_content,
+  #iasa_wrapper .feature_maintain_relationship_content,
+  #birth_wrapper .feature_maintain_relationship_content,
+  #lifelong_wrapper .feature_maintain_relationship_content {
     display: none;
   }
 
   .toggle_title_forward + .feature_maintain_relationship_content {
-    display: block;
+    display: block !important;
   }
+
   .toggle_title_letter + .feature_maintain_relationship_content {
-    display: block;
+    display: block !important;
   }
+
   .toggle_title_iasa + .feature_maintain_relationship_content {
-    display: block;
+    display: block !important;
   }
+
   .toggle_title_links + .feature_maintain_relationship_content {
+    display: block !important;
+  }
+
+  .toggle_title_birth_family + .feature_maintain_relationship_content {
+    display: block !important;
+  }
+
+  .feature_maintaing_relationship_links_details ul {
     display: block;
   }
-  .toggle_title_birth_family + .feature_maintain_relationship_content {
+  .feature_maintaing_relationship_links_details ul li {
+    width: 100%;
+  }
+  .feature_maintaing_relationship_links_details a {
+    margin-bottom: 40px;
+  }
+  .feature_maintaing_relationship_links_details {
+    padding-bottom: 0;
+  }
+  #letter_swap_wrapper .feature_maintain_relationship_content div,
+  #lifelong_wrapper .feature_maintain_relationship_content div {
     display: block;
+  }
+  #lifelong_wrapper .feature_maintain_relationship_content div p {
+    display: block;
+    margin-right: 0;
+    width: 100%;
+  }
+  #letter_swap_wrapper .feature_maintain_relationship_content .subtitle,
+  #lifelong_wrapper .feature_maintain_relationship_content .subtitle {
+    margin-top: 40px;
   }
 }
+
 /* Media Query */
+@media screen and (min-width: 768px) and (max-width: 1430px) {
+  .feature_maintain_relationship_support_wrapper_links {
+    padding: 50px 50px 0px 8.34%;
+  }
+
+  .feature_maintaining_relationship_wrapper_upcoming {
+    padding: 56px 10.5% 80px 56px;
+  }
+
+  .feature_maintaining_relationship_wrapper_background {
+    width: 65%;
+  }
+
+  #lifelong_wrapper .feature_maintain_relationship_content div p {
+    width: 44%;
+  }
+}

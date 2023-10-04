@@ -545,7 +545,7 @@ header:hover + main > .feature_video_banner_wrapper {
 .feature_contact_us_wrapper_title,
 .contact_us_title,
 .contact-us-header-secondary,
-.contact-us-details {
+.contact-us-details,.feature_maintaing_relationship_links_wrapper a {
   font-family: Urbanist-SemiBold;
 }
 .feature_early_pre_wrapper_links ul li a,
@@ -567,7 +567,8 @@ span,
 table tr th,
 table tr td,
 .feature_report_adopted_wrapper ul li,
-ul li,ol li {
+ul li,
+ol li {
   font-family: Manrope-Regular;
 }
 .linking_journey_table_details .table_title,
@@ -594,7 +595,8 @@ ul li,ol li {
 .children_journey_table_details tr th,
 .feature_linking_children_wrapper ul li b,
 .linking_journey_table_details tr th,
-.centre_excellence_table_details tr th {
+.centre_excellence_table_details tr th,
+.adoption_support_journey_table_details tr th {
   font-family: Manrope-SemiBold;
 }
 .header_wrapper_nav_links .header_active > a {

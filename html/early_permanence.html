@@ -229,9 +229,9 @@
                                         </div>
                                         <div id="video_modal" class="video_modal">
                                             <div class="video_modal_iframe">
-                                                <span class="close_icon" id="close_icon"><img
+                                                <button class="close_icon" id="close_icon1"><img
                                                         src="../assets/images/close_icon_white.png" alt="close icon" />
-                                                </span>
+                                                </button>
                                                 <iframe width="100%" height="710" class="iframe_video" id="videoId1"
                                                     src="https://www.youtube.com/embed/Lw8ugYCGKQ4"></iframe>
                                             </div>
@@ -247,7 +247,7 @@
                                         </div>
                                         <div id="video_modal" class="video_modal">
                                             <div class="video_modal_iframe">
-                                                <span class="close_icon" id="close_icon"><img
+                                                <span class="close_icon" id="close_icon2"><img
                                                         src="../assets/images/close_icon_white.png" alt="close icon" />
                                                 </span>
                                                 <iframe width="100%" height="710" class="iframe_video" id="videoId2"
@@ -267,7 +267,7 @@
                                         </div>
                                         <div id="video_modal" class="video_modal">
                                             <div class="video_modal_iframe">
-                                                <span class="close_icon" id="close_icon"><img
+                                                <span class="close_icon" id="close_icon3"><img
                                                         src="../assets/images/close_icon_white.png" alt="close icon" />
                                                 </span>
                                                 <iframe width="100%" height="710" class="iframe_video" id="videoId3"
@@ -285,7 +285,7 @@
                                         </div>
                                         <div id="video_modal" class="video_modal">
                                             <div class="video_modal_iframe">
-                                                <span class="close_icon" id="close_icon"><img
+                                                <span class="close_icon" id="close_icon4"><img
                                                         src="../assets/images/close_icon_white.png" alt="close icon" />
                                                 </span>
                                                 <iframe width="100%" height="710" class="iframe_video" id="videoId4"
@@ -305,7 +305,7 @@
                                         </div>
                                         <div id="video_modal" class="video_modal">
                                             <div class="video_modal_iframe">
-                                                <span class="close_icon" id="close_icon"><img
+                                                <span class="close_icon" id="close_icon5"><img
                                                         src="../assets/images/close_icon_white.png" alt="close icon" />
                                                 </span>
                                                 <iframe width="100%" height="710" class="iframe_video" id="videoId5"
@@ -416,7 +416,11 @@
         var pageWrapper = document.getElementById("page_wrapper");
 
         // Get the <span> element that closes the modal
-        var closeIcon = document.getElementById("close_icon");
+        var closeIcon1 = document.getElementById("close_icon1");
+        var closeIcon2 = document.getElementById("close_icon2");
+        var closeIcon3 = document.getElementById("close_icon3");
+        var closeIcon4 = document.getElementById("close_icon4");
+        var closeIcon5 = document.getElementById("close_icon5");
 
         // When the user clicks on the button, open the modal
         videoImageWrapper1.onclick = function (event) {
@@ -442,7 +446,31 @@
         };
 
         // When the user clicks on <span> (x), close the modal
-        closeIcon.onclick = function (event) {
+        closeIcon1.onclick = function (event) {
+            event.target.parentNode.parentNode.parentNode.style.display = "none";
+            pageWrapper.style.overflow = "auto";
+            window.location.reload();
+        };
+        // When the user clicks on <span> (x), close the modal
+        closeIcon2.onclick = function (event) {
+            event.target.parentNode.parentNode.parentNode.style.display = "none";
+            pageWrapper.style.overflow = "auto";
+            window.location.reload();
+        };
+        // When the user clicks on <span> (x), close the modal
+        closeIcon3.onclick = function (event) {
+            event.target.parentNode.parentNode.parentNode.style.display = "none";
+            pageWrapper.style.overflow = "auto";
+            window.location.reload();
+        };
+        // When the user clicks on <span> (x), close the modal
+        closeIcon4.onclick = function (event) {
+            event.target.parentNode.parentNode.parentNode.style.display = "none";
+            pageWrapper.style.overflow = "auto";
+            window.location.reload();
+        };
+        // When the user clicks on <span> (x), close the modal
+        closeIcon5.onclick = function (event) {
             event.target.parentNode.parentNode.parentNode.style.display = "none";
             pageWrapper.style.overflow = "auto";
             window.location.reload();
@@ -451,7 +479,7 @@
 
         // When the user clicks anywhere outside of the modal, close it
         // window.onclick = function (event) {
-        //     if (event.target == event.target.parentElement) {
+        //     if (event.target == videoModal) {
         //         event.target.parentElement.style.display = "none";
         //         pageWrapper.style.overflow = "auto";
         //         window.location.reload();
