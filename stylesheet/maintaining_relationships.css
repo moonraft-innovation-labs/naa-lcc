@@ -78,7 +78,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 55px;
-  padding-bottom: 56px;
+  padding-bottom: 72px;
   border-bottom: 1px solid rgba(230, 42, 80, 0.2);
 }
 
@@ -90,7 +90,7 @@
 }
 
 .details_para_first {
-  padding-bottom: 40px;
+  padding-bottom: 28px;
 }
 
 .adoption_support_journey_table_details th {
@@ -152,19 +152,22 @@
 }
 
 .feature_maintaing_relationship_links_details {
-  padding: 56px 0px;
+  padding: 72px 0px;
   border-bottom: 1px solid rgba(230, 42, 80, 0.2);
 }
 
 .feature_maintaing_relationship_links_details ul {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 84px;
 }
 
 .feature_maintaing_relationship_links_details ul li {
-  width: 50%;
+  width: 100%;
 }
 
 .feature_maintaing_relationship_links_details a {
@@ -194,7 +197,7 @@
 }
 
 .feature_maintain_relationship_desc_wrapper {
-  padding-bottom: 56px;
+  padding-bottom: 72px;
   border-bottom: 1px solid rgba(230, 42, 80, 0.2);
 }
 
@@ -223,9 +226,9 @@
   justify-content: space-between;
 }
 
-.feature_maintain_relationship_content p:first-child {
+/* .feature_maintain_relationship_content p:first-child {
   margin-right: 56px;
-}
+} */
 
 .feature_maintain_relationship_content .subtitle {
   font-size: 18px;
@@ -276,8 +279,9 @@
 
 #letter_swap_wrapper .feature_maintain_relationship_content div,
 #lifelong_wrapper .feature_maintain_relationship_content div {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 55px;
 }
 
 #letter_swap_wrapper .feature_maintain_relationship_content div p,
@@ -308,7 +312,7 @@
 
 #lifelong_wrapper .feature_maintain_relationship_content div p {
   margin: 0 56px 32px 0;
-  width: 46%;
+  width: 100%;
 }
 
 #lifelong_wrapper .feature_maintain_relationship_content div p:last-child {
@@ -411,8 +415,12 @@
     width: 80%;
   }
 
-  .feature_maintain_relationship_desc_wrapper .title_maintain {
+  /* .feature_maintain_relationship_desc_wrapper .title_maintain {
     margin-bottom: 24px;
+  } */
+
+  .feature_maintain_relationship_desc_wrapper {
+    padding-bottom: 40px;
   }
 
   /* toggling */

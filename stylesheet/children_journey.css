@@ -60,7 +60,7 @@
   line-height: 160%;
 }
 .feature_children_wrapper_upcoming {
-  padding: 70px 120px 80px 56px;
+  padding: 70px 120px 109px 56px;
 }
 .children_journey_subtitle {
   display: flex;
@@ -108,6 +108,7 @@
   letter-spacing: 0.16px;
   color: var(--black);
   border-left: 1px solid var(--catskillWhite);
+  vertical-align: middle;
 }
 .children_journey_table_details tr:nth-child(odd) {
   background-color: var(--blackHaze);

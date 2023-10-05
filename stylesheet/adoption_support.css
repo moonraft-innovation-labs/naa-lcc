@@ -158,12 +158,13 @@
     height: 410px;
   }
   .feature_adoption_support_wrapper_background {
-    top: 178px;
+    top: 149px;
     left: 24px;
     width: calc(100% - 48px);
   }
   .feature_adoption_support_wrapper_title {
     font-size: 36px;
+    margin-bottom: 24px;
   }
   .feature_adoption_support_wrapper_upcoming {
     padding: 40px 24px;
@@ -176,10 +177,13 @@
   }
   .adoption_support_journey_subtitle {
     padding-bottom: 40px;
+    border-bottom: 1px solid rgba(230, 42, 80, 0.2);
   }
   .adoption_support_journey_table_details {
     width: 100%;
     overflow-x: scroll;
+    margin-top: 40px;
+    padding-top: 0px;
   }
 }
 /* Media Query */

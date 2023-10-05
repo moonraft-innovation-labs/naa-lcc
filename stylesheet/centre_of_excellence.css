@@ -51,7 +51,7 @@
 
 .feature_centre_excellence_wrapper_background {
   position: absolute;
-  width: 42%;
+  width: 49%;
   left: 56px;
   top: 140px;
 }
@@ -75,17 +75,20 @@
 }
 
 .centre_excellence_journey_subtitle {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 55px;
   padding-bottom: 56px;
   border-bottom: 1px solid rgba(230, 42, 80, 0.2);
 }
 
-.centre_excellence_journey_subtitle p:first-child,
-.feature_centre_excellence_wrapper_development_terms p:first-child,
-.centre_excellence_project_board_sub_title p:first-child {
-  margin-right: 56px;
-}
+/* .feature_centre_excellence_wrapper_development_terms p:first-child, */
+/* .centre_excellence_project_board_sub_title p:first-child  */
+/* .centre_excellence_journey_subtitle p:first-child { */
+/* margin-right: 56px;
+} */
 
 .centre_excellence_journey_subtitle p {
   font-size: 18px;
@@ -116,8 +119,11 @@
 }
 
 .feature_centre_excellence_wrapper_development_terms {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 55px;
   margin-top: 40px;
 }
 
@@ -131,6 +137,15 @@
 }
 
 .feature_centre_excellence_wrapper_development_membership .sub_title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--black);
+  padding: 40px 0;
+}
+
+.feature_centre_excellence_wrapper_development_membership .sub_title_regular {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -177,7 +192,7 @@
   color: var(--white);
   font-size: 16px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 160%;
   letter-spacing: 0.16px;
   text-align: left;
@@ -231,8 +246,11 @@
 }
 
 .centre_excellence_project_board_sub_title {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 55px;
   padding: 40px 0 56px;
 }
 
@@ -246,7 +264,7 @@
 }
 .centre_excellence_project_board_details ol {
   list-style: auto;
-  margin-left: 16px;
+  margin-left: 18px;
 }
 .centre_excellence_project_board_details ol li {
   color: var(--black);
@@ -255,10 +273,10 @@
   font-weight: 400;
   line-height: 160%;
 }
-.centre_excellence_project_board_details {
+/* .centre_excellence_project_board_details {
   padding-bottom: 56px;
   border-bottom: 1px solid rgba(230, 42, 80, 0.2);
-}
+} */
 
 .feature_centre_excellence_wrapper_project .title {
   padding: 40px 0 56px;
@@ -311,6 +329,12 @@
   .centre_excellence_journey_subtitle {
     padding-bottom: 40px;
     border-bottom: 1px solid rgba(230, 42, 80, 0.2);
+  }
+  .feature_centre_excellence_wrapper_development {
+    padding-top: 40px;
+  }
+  .feature_centre_excellence_wrapper_development .sub_title {
+    padding-top: 40px;
   }
 }
 
