@@ -4,7 +4,7 @@
   --white: #ffffff;
   --paradiso: #358182;
   --balticSea: #221f24;
-  --amaranth: #C42444;
+  --amaranth: #c42444;
   --gallery: #f0f0f0;
   --balticSea: #29272c;
   --casal: #265c5d;
@@ -21,8 +21,8 @@
   --blackHaze: #edefef;
   --tuatara: #20201f;
   --whisperBackground: #f1ebf6;
-  --maroonFlush: #B2213E;
-  --maroonFlushActive: #87192F;
+  --maroonFlush: #b2213e;
+  --maroonFlushActive: #87192f;
   --mercury: #e3e3e3;
 }
 
@@ -179,7 +179,7 @@ button {
 }
 
 .footer_wrapper_logo_links li:nth-child(2) {
-  margin-right: 70px;
+  margin-right: 93px;
 }
 
 .footer_wrapper_logo_links li:last-child {
@@ -198,6 +198,7 @@ button {
   color: var(--balticSea);
   font-size: 16px;
   padding-top: 16px;
+  line-height: 120%;
 }
 
 .footer_wrapper_copy_rights {
@@ -210,6 +211,8 @@ button {
 .footer_wrapper_copy_rights p {
   color: var(--gray);
   font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
 }
 
 .footer_wrapper_copy_rights a {
@@ -220,11 +223,11 @@ button {
 }
 
 .footer_wrapper_copy_rights a:first-child {
-  margin-right: 97px;
+  margin-right: 93px;
 }
 
 .footer_wrapper_copy_rights a:nth-child(2) {
-  margin-right: 111px;
+  margin-right: 93px;
 }
 
 .feature_video_banner_wrapper {
@@ -281,7 +284,7 @@ header:hover + main > .feature_video_banner_wrapper {
 }
 
 .footer_wrapper_copy_rights_links a:last-child {
-  margin-right: 133px;
+  margin-right: 93px;
 }
 
 /* Media Query */
@@ -358,6 +361,7 @@ header:hover + main > .feature_video_banner_wrapper {
   }
   .header_wrapper_mobile_details ul li a {
     color: var(--blueDianne) !important;
+    font-weight: 800;
   }
   .main-nav_wrapper {
     display: flex;
@@ -386,7 +390,7 @@ header:hover + main > .feature_video_banner_wrapper {
     padding: 16px 32px;
     font-size: 16px;
     border-radius: 30px;
-    margin-top: 80px;
+    margin: 80px 24px 0;
     text-align: center;
   }
   .main-nav__arrow img {
@@ -526,6 +530,10 @@ header:hover + main > .feature_video_banner_wrapper {
   .footer_wrapper_logo_links li:nth-child(4) {
     margin: 0px;
   }
+  .footer_wrapper_logo img {
+    box-sizing: content-box;
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -591,7 +599,8 @@ header:hover + main > .feature_video_banner_wrapper {
 .feature_linking_children_wrapper .title,
 .feature_about_us_wrapper_title,
 .feature_about_us_wrapper_upcoming .title,
-.feature_reports_wrapper_title,.feature_commissioning_wrapper_title {
+.feature_reports_wrapper_title,
+.feature_commissioning_wrapper_title {
   font-family: Urbanist-Regular;
 }
 
