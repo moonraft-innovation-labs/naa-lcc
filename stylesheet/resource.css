@@ -32,15 +32,15 @@
   top: 140px;
 }
 .feature_resource_wrapper_content img {
-  height: 400px;
+  height: 500px;
   width: 100%;
 }
 .feature_resource_wrapper_title {
   font-size: 56px;
   color: var(--white);
-  font-weight: 600;
-  margin-bottom: 24px;
-  line-height: 110%;
+  font-weight: bold;
+  margin-bottom: 32px;
+  line-height: 120%;
 }
 .feature_resource_wrapper_sub-title {
   font-size: 18px;
@@ -194,7 +194,6 @@
   }
   .feature_reports_wrapper_detail p:first-child {
     margin-bottom: 24px;
-    margin-right: 0;
   }
   .feature_profession_wrapper {
     padding-top: 40px;

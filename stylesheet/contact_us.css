@@ -25,7 +25,6 @@
 .feature_contact_us_wrapper_links ul .active_about_us a {
   font-weight: 700;
   color: var(--amaranth);
-  line-height: 16px;
 }
 
 .active_about_us a::after {
@@ -57,9 +56,9 @@
 .feature_contact_us_wrapper_title {
   font-size: 56px;
   color: var(--white);
-  font-weight: 600;
-  margin-bottom: 24px;
-  line-height: 110%;
+  font-weight: bold;
+  margin-bottom: 32px;
+  line-height: 120%;
 }
 .feature_contact_us_wrapper_upcoming {
   padding: 70px 120px 80px 56px;
@@ -142,7 +141,7 @@
     font-size: 36px;
   }
   .feature_contact_us_wrapper_upcoming {
-    padding: 40px 24px 80px;
+    padding: 40px 24px;
   }
   .feature_contact_us_wrapper_upcoming .contact_us_title {
     font-size: 28px;

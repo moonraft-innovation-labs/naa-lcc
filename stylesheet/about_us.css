@@ -25,7 +25,6 @@
 .feature_about_us_wrapper_links ul .active_about_us a {
   font-weight: 700;
   color: var(--amaranth);
-  line-height: 16px;
 }
 .active_about_us a::after {
   content: "";
@@ -56,9 +55,9 @@
 .feature_about_us_wrapper_title {
   font-size: 56px;
   color: var(--white);
-  font-weight: 600;
-  margin-bottom: 24px;
-  line-height: 110%;
+  font-weight: bold;
+  margin-bottom: 32px;
+  line-height: 120%;
 }
 .feature_about_us_wrapper_sub-title {
   font-size: 18px;
@@ -88,7 +87,7 @@
   display: flex;
   background: var(--catskillWhite);
   border-radius: 10px;
-  padding: 24px;
+  padding: 20px;
   align-items: center;
 }
 
@@ -108,9 +107,7 @@
   line-height: 160%;
   margin-left: 16px;
 }
-.about_us {
-  font-weight: 800;
-}
+
 /* Media Query */
 @media screen and (max-width: 767px) {
   .feature_about_us_wrapper_links {
@@ -128,11 +125,10 @@
     font-size: 36px;
   }
   .feature_about_us_wrapper_upcoming {
-    padding: 40px 24px 80px;
+    padding: 40px 24px;
   }
   .feature_about_us_wrapper_upcoming .title {
     font-size: 28px;
-    padding-bottom: 40px;
   }
 
   .about_us_content_header_items {
