@@ -100,10 +100,13 @@
   margin-left: 88px;
   width: 40%;
 }
-.feature_raa_wrapper_image img,
+.feature_raa_wrapper_image img {
+  width: 453px;
+  height: 594px;
+}
 .feature_children_adopt_wrapper_image img {
-  width: 520px;
-  height: 595px;
+  width: 491px;
+  height: 562px;
 }
 .feature_raa_wrapper_content_title {
   font-size: 56px;
@@ -234,5 +237,8 @@
   }
   .feature_children_adopt_wrapper {
     padding: 100px 8.34% 50px;
+  }
+  .feature_video_banner_title_wrapper {
+    width: 70%;
   }
 }

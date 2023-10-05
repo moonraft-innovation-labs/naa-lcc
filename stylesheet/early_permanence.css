@@ -114,15 +114,18 @@
   align-items: center;
 }
 .early_pre_sub_heading {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 55px;
   padding-bottom: 56px;
   border-bottom: 1px solid rgba(230, 42, 80, 0.2);
 }
-.early_pre_sub_heading p:first-child,
-.feature_national_early_permenance_subheading p:first-child {
+/* .early_pre_sub_heading p:first-child, */
+/* .feature_national_early_permenance_subheading p:first-child {
   margin-right: 56px;
-}
+} */
 .early_pre_sub_heading p {
   font-size: 18px;
   font-weight: 400;
@@ -138,8 +141,9 @@
   color: var(--blueDianne);
 }
 .feature_national_early_permenance_subheading {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 55px;
   padding-bottom: 56px;
 }
 .feature_national_early_permenance_subheading p {
@@ -161,6 +165,11 @@
   border-radius: 16px;
   background-color: var(--catskillWhite);
 }
+
+.feature_early_pre_releated_videos_wrapper .single_video_wrapper_link {
+  width: 47%;
+}
+
 .feature_early_pre_releated_videos_wrapper li img,
 .feature_early_pre_releated_videos_wrapper li iframe {
   width: 100%;
@@ -192,11 +201,13 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.56);
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
 }
 
 .video_modal_iframe {
-  margin: 150px;
+  width: calc(100% - 320px);
   position: relative;
 }
 .close_icon {
@@ -227,7 +238,7 @@
     font-size: 36px;
   }
   .feature_early_pre_wrapper_background {
-    top: 178px;
+    top: 207px;
     left: 24px;
     width: calc(100% - 48px);
   }
@@ -257,6 +268,7 @@
   .feature_pdf_download a {
     margin: 0;
     display: block;
+    text-align: center;
   }
   .feature_pdf_download span {
     display: block;
@@ -274,14 +286,20 @@
   .feature_early_pre_releated_videos_wrapper li {
     width: 100%;
   }
+
+  .feature_early_pre_releated_videos_wrapper li:last-child {
+    width: 100%;
+  }
+
   .video_modal_iframe {
     display: flex;
     align-items: center;
     height: 100%;
     margin: 24px;
+    width: 100%;
   }
   .feature_early_pre_releated_videos_wrapper li .iframe_video {
-    height: 210px;
+    height: 218px;
     width: 100%;
   }
   .close_icon {
@@ -289,6 +307,15 @@
   }
   .adding_space {
     margin: 40px 0;
+  }
+
+  .video_thumbnail_mobile_view_padding {
+    padding: 16px 16px 32px 16px;
+  }
+
+  .video_title {
+    padding: 0px;
+    font-size: 20px;
   }
 }
 /* Media Query */

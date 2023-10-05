@@ -44,15 +44,15 @@
 .feature_professional_wrapper_background {
   position: absolute;
   width: 42%;
-  left: 56px;
-  top: 140px;
+  left: 59px;
+  top: 147px;
 }
 .feature_professional_wrapper_title {
   font-size: 56px;
   color: var(--white);
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 24px;
-  line-height: 120%;
+  line-height: 110%;
 }
 .feature_professional_wrapper_sub-title {
   font-size: 18px;
@@ -60,14 +60,17 @@
   line-height: 160%;
 }
 .book_now {
+  display: inline-block;
   color: var(--white);
   background-color: var(--amaranth);
-  padding: 16px 32px;
-  font-size: 16px;
+  padding: 13px 38px 13px 40px;
+  font-size: 18px;
   border-radius: 30px;
+  font-weight: 500;
+  line-height: 120%;
 }
 .feature_professional_wrapper_upcoming {
-  padding: 70px 120px 112px 56px;
+  padding: 72px 120px 120px 56px;
 }
 .upcoming_events_title {
   padding-bottom: 56px;
@@ -184,6 +187,8 @@
   }
   .feature_professional_wrapper_title {
     font-size: 36px;
+
+    font-family: "Urbanist-SemiBold";
   }
   .feature_professional_wrapper_background {
     top: 178px;
@@ -191,11 +196,12 @@
     width: calc(100% - 48px);
   }
   .feature_professional_wrapper_upcoming {
-    padding: 40px 24px 80px;
+    padding: 40px 24px;
   }
   .upcoming_events_title {
     font-size: 28px;
-    padding-bottom: 32px;
+    padding-bottom: 40px;
+    line-height: 130%;
   }
   .upcoming_events_subtitle {
     display: block;
@@ -209,8 +215,11 @@
   }
   .upcoming_events_details_card img {
     width: 100%;
-    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 296px;
   }
+
   .book_now {
     display: block;
     text-align: center;
@@ -219,11 +228,13 @@
     padding: 24px;
   }
   .upcoming_events_details_content_title {
-    margin-bottom: 24px;
+    margin-bottom: 21px;
+    line-height: normal;
+    font-size: 24px;
   }
   .timing_calendar_wrapper {
     display: block;
-    margin-bottom: 24px;
+    margin-bottom: 21px;
   }
   .timing_calendar_wrapper img {
     display: none;
@@ -239,6 +250,9 @@
   }
   .calendar {
     margin-left: 0px;
+  }
+  .book_now {
+    padding: 13px 0px;
   }
 }
 /* Media Query */

@@ -1,469 +1,539 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../assets/images/favicon.ico" rel="icon" />
     <link rel="stylesheet" href="../stylesheet/reset.css" type="text/css" />
-    <link rel="stylesheet" href="../stylesheet/header_footer.css" type="text/css" />
-    <link rel="stylesheet" href="../stylesheet/centre_of_excellence.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="../stylesheet/header_footer.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="../stylesheet/centre_of_excellence.css"
+      type="text/css"
+    />
     <title>Centre of Excellence</title>
-</head>
+  </head>
 
-<body class="page_wrapper">
+  <body class="page_wrapper">
     <header class="header">
-        <div class="header_wrapper_logo">
+      <div class="header_wrapper_logo">
+        <a href="./home.html">
+          <img src="../assets/images/header_logo.png" alt="logo" />
+        </a>
+        <div class="header_wrapper_logo_links">
+          <a href="./about_us.html">About Us?</a>
+          <a href="./raa.html">What is RAA?</a>
+          <a
+            class="header_wrapper_logo_button"
+            href="https://www.youcanadopt.co.uk/"
+            target="_blank"
+          >
+            Considering Adopting?
+          </a>
+        </div>
+      </div>
+      <div class="header_wrapper_nav">
+        <ul class="header_wrapper_nav_links">
+          <li><a>Adopted People</a></li>
+          <li><a>Adoptive Parents</a></li>
+          <li><a>Birth Families</a></li>
+          <li class="header_wrapper_nav_links_open header_active">
+            <a href="./professional.html">Professionals</a>
+            <ul class="header_wrapper_nav_links_sub_menu">
+              <li><a href="./professional.html">Events</a></li>
+              <li><a href="./early_permanence.html">Early Permanence</a></li>
+              <li>
+                <a href="./linking_matching.html">Linking and Matching</a>
+              </li>
+              <li>
+                <a href="./maintaining_relationships.html"
+                  >Maintaining Relationships</a
+                >
+              </li>
+              <li><a href="./children_journey.html">Child’s Journey</a></li>
+              <li><a href="./adoption_support.html">Adoption Support </a></li>
+              <li>
+                <a href="./centre_of_excellence.html">Centre of Excellence </a>
+              </li>
+              <li><a href="./commissioning.html">Commissioning</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="header_wrapper_nav_links">
+          <li><a>Useful information</a></li>
+          <li class="header_wrapper_nav_links_open">
+            <a href="./resource.html">Resources</a>
+            <ul class="header_wrapper_nav_links_sub_menu">
+              <li><a>Reports</a></li>
+              <li><a>Subject</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- Responsive header  -->
+      <div class="header_wrapper_mobile" id="header_wrapper_mobile">
+        <div class="header_wrapper_mobile_logo">
+          <div class="header_wrapper_mobile_logo_icon">
             <a href="./home.html">
-                <img src="../assets/images/header_logo.png" alt="logo" />
+              <img src="../assets/images/header_logo.png" alt="logo" />
             </a>
-            <div class="header_wrapper_logo_links">
-                <a href="./about_us.html">About Us?</a>
-                <a href="./raa.html">What is RAA?</a>
-                <a class="header_wrapper_logo_button" href="https://www.youcanadopt.co.uk/" target="_blank">
-                    Considering Adopting?
-                </a>
-            </div>
-        </div>
-        <div class="header_wrapper_nav">
-            <ul class="header_wrapper_nav_links">
-                <li><a>Adopted People</a></li>
-                <li><a>Adoptive Parents</a></li>
-                <li><a>Birth Families</a></li>
-                <li class="header_wrapper_nav_links_open header_active">
-                    <a href="./professional.html">Professionals</a>
-                    <ul class="header_wrapper_nav_links_sub_menu">
-                        <li><a href="./professional.html">Events</a></li>
-                        <li><a href="./early_permanence.html">Early Permanence</a></li>
-                        <li>
-                            <a href="./linking_matching.html">Linking and Matching</a>
-                        </li>
-                        <li>
-                            <a href="./maintaining_relationships.html">Maintaining Relationships</a>
-                        </li>
-                        <li><a href="./children_journey.html">Child’s Journey</a></li>
-                        <li><a href="./adoption_support.html">Adoption Support </a></li>
-                        <li>
-                            <a href="./centre_of_excellence.html">Centre of Excellence </a>
-                        </li>
-                        <li><a href="./commissioning.html">Commissioning</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="header_wrapper_nav_links">
-                <li><a>Useful information</a></li>
-                <li class="header_wrapper_nav_links_open">
-                    <a href="./resource.html">Resources</a>
-                    <ul class="header_wrapper_nav_links_sub_menu">
-                        <li><a>Reports</a></li>
-                        <li><a>Subject</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <!-- Responsive header  -->
-        <div class="header_wrapper_mobile" id="header_wrapper_mobile">
-            <div class="header_wrapper_mobile_logo">
-                <div class="header_wrapper_mobile_logo_icon">
-                    <a href="./home.html">
-                        <img src="../assets/images/header_logo.png" alt="logo" />
-                    </a>
-                    <span class="header_wrapper_mobile_logo_title">Menu</span>
-                </div>
+            <span class="header_wrapper_mobile_logo_title">Menu</span>
+          </div>
 
-                <button class="header_wrapper_mobile_toggle" id="header_wrapper_mobile_toggle">
-                    <div class="header_wrapper_mobile_menu"></div>
-                </button>
-            </div>
-            <div class="header_wrapper_mobile_details">
-                <ul>
-                    <li>
-                        <div class="main-nav_wrapper">
-                            <a class="raa_mobile" href="./raa.html">What is RAA?</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="main-nav_wrapper">
-                            <a>About Us</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
-                                    alt="arrow right" /></span>
-                        </div>
-                        <ul class="main-nav__dropdown">
-                            <li><a href="./about_us.html">About us</a></li>
-                            <li><a href="./our_team.html">Our team</a></li>
-                            <li><a href="./contact_us.html">Contact us</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <div class="main-nav_wrapper">
-                            <a>Professionals</a><span class="main-nav__arrow"><img
-                                    src="../assets/images/arrow_right.png" alt="arrow right" /></span>
-                        </div>
-                        <ul class="main-nav__dropdown">
-                            <li><a href="./professional.html">Events</a></li>
-                            <li><a href="./early_permanence.html">Early Permanence</a></li>
-                            <li>
-                                <a href="./linking_matching.html">Linking and Matching</a>
-                            </li>
-                            <li>
-                                <a href="./maintaining_relationships.html">Maintaining Relationships</a>
-                            </li>
-                            <li><a href="./children_journey.html">Child’s Journey</a></li>
-                            <li><a href="./adoption_support.html">Adoption Support </a></li>
-                            <li>
-                                <a href="./centre_of_excellence.html">Centre of Excellence
-                                </a>
-                            </li>
-                            <li><a href="./commissioning.html">Commissioning</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <div class="main-nav_wrapper">
-                            <a>Resources</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
-                                    alt="arrow right" /></span>
-                        </div>
-                        <ul class="main-nav__dropdown">
-                            <li><a href="./resource.html">Reports</a></li>
-                            <li><a href="./resource.html">Annual Reports</a></li>
-                            <li><a href="./professional.html">Professionals</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <a class="header_wrapper_logo_button_mobile" href="https://www.youcanadopt.co.uk/" target="_blank">
-                    Considering Adopting?
-                </a>
-            </div>
+          <button
+            class="header_wrapper_mobile_toggle"
+            id="header_wrapper_mobile_toggle"
+          >
+            <div class="header_wrapper_mobile_menu"></div>
+          </button>
         </div>
+        <div class="header_wrapper_mobile_details">
+          <ul>
+            <li>
+              <div class="main-nav_wrapper">
+                <a class="raa_mobile" href="./raa.html">What is RAA?</a>
+              </div>
+            </li>
+            <li>
+              <div class="main-nav_wrapper">
+                <a>About Us</a
+                ><span class="main-nav__arrow"
+                  ><img
+                    src="../assets/images/arrow_right.png"
+                    alt="arrow right"
+                /></span>
+              </div>
+              <ul class="main-nav__dropdown">
+                <li><a href="./about_us.html">About us</a></li>
+                <li><a href="./our_team.html">Our team</a></li>
+                <li><a href="./contact_us.html">Contact us</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="main-nav_wrapper">
+                <a>Professionals</a
+                ><span class="main-nav__arrow"
+                  ><img
+                    src="../assets/images/arrow_right.png"
+                    alt="arrow right"
+                /></span>
+              </div>
+              <ul class="main-nav__dropdown">
+                <li><a href="./professional.html">Events</a></li>
+                <li><a href="./early_permanence.html">Early Permanence</a></li>
+                <li>
+                  <a href="./linking_matching.html">Linking and Matching</a>
+                </li>
+                <li>
+                  <a href="./maintaining_relationships.html"
+                    >Maintaining Relationships</a
+                  >
+                </li>
+                <li><a href="./children_journey.html">Child’s Journey</a></li>
+                <li><a href="./adoption_support.html">Adoption Support </a></li>
+                <li>
+                  <a href="./centre_of_excellence.html"
+                    >Centre of Excellence
+                  </a>
+                </li>
+                <li><a href="./commissioning.html">Commissioning</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="main-nav_wrapper">
+                <a>Resources</a
+                ><span class="main-nav__arrow"
+                  ><img
+                    src="../assets/images/arrow_right.png"
+                    alt="arrow right"
+                /></span>
+              </div>
+              <ul class="main-nav__dropdown">
+                <li><a href="./resource.html">Reports</a></li>
+                <li><a href="./resource.html">Annual Reports</a></li>
+                <li><a href="./professional.html">Professionals</a></li>
+              </ul>
+            </li>
+          </ul>
+          <a
+            class="header_wrapper_logo_button_mobile"
+            href="https://www.youcanadopt.co.uk/"
+            target="_blank"
+          >
+            Considering Adopting?
+          </a>
+        </div>
+      </div>
     </header>
     <main id="main">
-        <section>
-            <div class="feature_centre_excellence_wrapper">
-                <div class="feature_centre_excellence_wrapper_links">
-                    <ul>
-                        <li><a href="./professional.html">Events</a></li>
-                        <li><a href="./early_permanence.html">Early Permanence</a></li>
-                        <li>
-                            <a href="./linking_matching.html">Linking and Matching</a>
-                        </li>
-                        <li>
-                            <a href="./maintaining_relationships.html">Maintaining Relationships</a>
-                        </li>
-                        <li>
-                            <a href="./children_journey.html">Child’s Journey</a>
-                        </li>
-                        <li><a href="./adoption_support.html">Adoption Support</a></li>
-                        <li class="active_profession">
-                            <a href="./centre_of_excellence.html">Centre of Excellence</a>
-                        </li>
-                        <li>
-                            <a href="./commissioning.html">Commissioning </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="feature_centre_excellence_wrapper_details">
-                    <div class="feature_centre_excellence_wrapper_content">
-                        <div class="feature_centre_excellence_wrapper_background">
-                            <p class="feature_centre_excellence_wrapper_title">
-                                Centre of Excellence
-                            </p>
-                            <p class="feature_centre_excellence_wrapper_sub-title">
-                                The government’s vision is to support further development of Centres of Excellence in
-                                adoption services.
-                            </p>
-                        </div>
-                        <img src="../assets/images/centre_excellence_banner_background.png"
-                            alt="centre excellence background" />
-                    </div>
-                    <div class="feature_centre_excellence_wrapper_upcoming">
-                        <div class="centre_excellence_journey_subtitle">
-                            <p>
-                                To turn this vision in to practical reality, a 2-year period of funding is made
-                                available for Regional Adoption Agencies to develop multidisciplinary / multiagency
-                                approaches to provide better services for adopted
-                            </p>
-                            <p>
-                                children, young people, and their families and to secure permanent, sustainable funding
-                                arrangements in partnership with local authorities and health commissioners.
-                            </p>
-                        </div>
-                        <div class="feature_centre_excellence_wrapper_development">
-                            <p class="title">
-                                Development of Centres of Excellence in Adoption
-                            </p>
-                            <p class="sub_title">Project Board - Terms of Reference</p>
-                            <div class="feature_centre_excellence_wrapper_development_terms">
-                                <p>
-                                    <span>The government’s vision is to support further development of Centres of
-                                        Excellence
-                                        in adoption services. To turn this vision in to practical reality, a 2-year
-                                        period
-                                        of funding is made available for Regional Adoption Agencies to develop
-                                        multidisciplinary/ multiagency approaches to provide better services for adopted
-                                        children, young people, and their families and to secure permanent, sustainable
-                                        funding arrangements in partnership with local authorities and health
-                                        commissioners.
-                                    </span>
-                                    <span> The Project Board for the Developing Centres of Excellence in Adoption
-                                        programme,
-                                        representing key stakeholders and experts by experience, is set to support the
-                                        delivery of the overall CofE Programme.
-                                    </span>
-                                    The board gives an oversight for the programme by reviewing the regional projects
-                                    and the overall programme’s progress against plans. The board helps the programme
-                                    and the regional projects by giving strategic direction and support when required.
-                                    The project board reviews and makes decisions of any requests that materially change
-                                    the original project plans.
-                                </p>
-                                <p>
-                                    <span>The Programme Board has a key role in supporting the National Adoption
-                                        Strategic Lead and the RAA Leaders Group in making decisions and providing both
-                                        challenge and approval on issues affecting the progress of the programme.</span>
-                                    <span>The board and its members create and maintain effective communication links
-                                        between the programme / projects and organisations and stakeholder groups to
-                                        ensure the dissemination of information and learning about the programme.</span>
-                                    <span>The board provides advice and support for the academic partner who will be
-                                        appointed to undertake research and evaluation of the previously funded
-                                        multi-disciplinary teams and to look at themes emerging from the current
-                                        projects.</span>
-                                    The Programme Board shall have no formal decision-making powers.
-                                </p>
-                            </div>
-                            <p class="sub_title">Membership</p>
-                            <div class="feature_centre_excellence_wrapper_development_membership">
-                                <p class="sub_title">
-                                    Membership of the board represents the different stakeholders within the adoption
-                                    sector. On occasions, other individuals may be invited to attend meetings to provide
-                                    specific information to support the Project Board’s
-                                    decision-making.
-                                </p>
-                                <p class="sub_title_bold">Board members should be able to:</p>
-                                <ul>
-                                    <li>Understand programme and project plans</li>
-                                    <li>Own and communicate the programme vision</li>
-                                    <li>
-                                        Broker relationships with stakeholders within and outside
-                                        the programme
-                                    </li>
-                                    <li>
-                                        Be aware of the broader perspective and how it affects the
-                                        programme
-                                    </li>
-                                </ul>
-                                <p class="sub_title">
-                                    The following table shows the key persons and their roles
-                                    within the Board.
-                                </p>
-                                <div class="centre_excellence_table_details">
-                                    <table>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Organisation</th>
-                                            <th>Role on the Board</th>
-                                        </tr>
-                                        <tr>
-                                            <td>SS</td>
-                                            <td>RAA Leaders Group</td>
-                                            <td>Chair of the board</td>
-                                        </tr>
-                                        <tr>
-                                            <td>JA</td>
-                                            <td>National Adoption of Virtual School Heads</td>
-                                            <td>Education Lead</td>
-                                        </tr>
-                                        <tr>
-                                            <td>KB</td>
-                                            <td>Manchester University NHS Foundation Trust</td>
-                                            <td>Mental Health Representitive</td>
-                                        </tr>
-                                        <tr>
-                                            <td>SL</td>
-                                            <td>National Team</td>
-                                            <td>Adoption Strategic Lead</td>
-                                        </tr>
-                                        <tr>
-                                            <td>EB</td>
-                                            <td>National Team</td>
-                                            <td>Programme Manager</td>
-                                        </tr>
-                                        <tr>
-                                            <td>LF</td>
-                                            <td>DFE</td>
-                                            <td>COE Policy Lead</td>
-                                        </tr>
-                                        <tr>
-                                            <td>-</td>
-                                            <td>NHS</td>
-                                            <td>Transformation of Service</td>
-                                        </tr>
-                                        <tr>
-                                            <td>RA</td>
-                                            <td>Department of Health and Social Care</td>
-                                            <td>Policy Lead for child health and safeguarding</td>
-                                        </tr>
-                                        <tr>
-                                            <td>MJ</td>
-                                            <td>CVAA</td>
-                                            <td>Voluntary Agencies Representative</td>
-                                        </tr>
-                                        <tr>
-                                            <td>EC</td>
-                                            <td>We are Family</td>
-                                            <td>Adoptive Parent</td>
-                                        </tr>
-                                        <tr>
-                                            <td>AT</td>
-                                            <td>Adoption UK</td>
-                                            <td>Adoptive Parent</td>
-                                        </tr>
-                                        <tr>
-                                            <td>JM</td>
-                                            <td>PAC/UK</td>
-                                            <td>Adoption Support Provider</td>
-                                        </tr>
-                                        <tr>
-                                            <td>KB</td>
-                                            <td>Oxford Brookes University</td>
-                                            <td>Research Partner</td>
-                                        </tr>
-                                        <tr>
-                                            <td>JS</td>
-                                            <td>Coram-Baaf</td>
-                                            <td>ADirector of Policy, Research and Development </td>
-                                        </tr>
-                                        <tr>
-                                            <td>LS</td>
-                                            <td>Coram Advisory Group</td>
-                                            <td>AMedical Advisor/ Designated Doctor</td>
-                                        </tr>
-                                        <tr>
-                                            <td>RLF</td>
-                                            <td>Oxford University </td>
-                                            <td>Health Economy/ Adopter</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                                <div class="centre_excellence_project_board_sub_title">
-                                    <p>
-                                        The Project Board have discussed their roles and
-                                        responsibilities and the board members are aware of the
-                                        responsibilities of the role as outlined in the Terms of
-                                        Reference above. Members agree to prioritise their
-                                        attendance at board meetings.
-                                    </p>
-                                    <p>
-                                        Members recognise that they may delegate tasks, but the
-                                        responsibilities remain with them, therefore no
-                                        substitutions can be made with regard to board attendance.
-                                    </p>
-                                </div>
-                                <div class="centre_excellence_project_board_details">
-                                    <p class="title">Project Board meetings</p>
-                                    <ol>
-                                        <li>Date of first meeting:
-                                            <ol class="sub_list" type="a">
-                                                <li>27th April 2023 – inaugural virtual meeting</li>
-                                                <li>16th May 2023– CofE Theory of Change Workshop</li>
-                                            </ol>
-                                        </li>
-                                        <li>
-                                            Frequency of future meetings: The board will meet at
-                                            least quarterly
-                                        </li>
-                                        <li>Time to be allowed: 1.5hr- 2hr</li>
-                                        <li>
-                                            Action Points / meeting notes will be circulated to the
-                                            board members
-                                        </li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <section>
+        <div class="feature_centre_excellence_wrapper">
+          <div class="feature_centre_excellence_wrapper_links">
+            <ul>
+              <li><a href="./professional.html">Events</a></li>
+              <li><a href="./early_permanence.html">Early Permanence</a></li>
+              <li>
+                <a href="./linking_matching.html">Linking and Matching</a>
+              </li>
+              <li>
+                <a href="./maintaining_relationships.html"
+                  >Maintaining Relationships</a
+                >
+              </li>
+              <li>
+                <a href="./children_journey.html">Child’s Journey</a>
+              </li>
+              <li><a href="./adoption_support.html">Adoption Support</a></li>
+              <li class="active_profession">
+                <a href="./centre_of_excellence.html">Centre of Excellence</a>
+              </li>
+              <li>
+                <a href="./commissioning.html">Commissioning </a>
+              </li>
+            </ul>
+          </div>
+          <div class="feature_centre_excellence_wrapper_details">
+            <div class="feature_centre_excellence_wrapper_content">
+              <div class="feature_centre_excellence_wrapper_background">
+                <p class="feature_centre_excellence_wrapper_title">
+                  Centre of Excellence
+                </p>
+                <p class="feature_centre_excellence_wrapper_sub-title">
+                  The government’s vision is to support further development of
+                  Centres of Excellence in adoption services.
+                </p>
+              </div>
+              <img
+                src="../assets/images/centre_excellence_banner_background.png"
+                alt="centre excellence background"
+              />
             </div>
-        </section>
+            <div class="feature_centre_excellence_wrapper_upcoming">
+              <div class="centre_excellence_journey_subtitle">
+                <p>
+                  To turn this vision in to practical reality, a 2-year period
+                  of funding is made available for Regional Adoption Agencies to
+                  develop multidisciplinary / multiagency approaches to provide
+                  better services for adopted
+                </p>
+                <p>
+                  children, young people, and their families and to secure
+                  permanent, sustainable funding arrangements in partnership
+                  with local authorities and health commissioners.
+                </p>
+              </div>
+              <div class="feature_centre_excellence_wrapper_development">
+                <p class="title">
+                  Development of Centres of Excellence in Adoption
+                </p>
+                <p class="sub_title">Project Board - Terms of Reference</p>
+                <div
+                  class="feature_centre_excellence_wrapper_development_terms"
+                >
+                  <p>
+                    <span
+                      >The government’s vision is to support further development
+                      of Centres of Excellence in adoption services. To turn
+                      this vision in to practical reality, a 2-year period of
+                      funding is made available for Regional Adoption Agencies
+                      to develop multidisciplinary/ multiagency approaches to
+                      provide better services for adopted children, young
+                      people, and their families and to secure permanent,
+                      sustainable funding arrangements in partnership with local
+                      authorities and health commissioners.
+                    </span>
+                    <span>
+                      The Project Board for the Developing Centres of Excellence
+                      in Adoption programme, representing key stakeholders and
+                      experts by experience, is set to support the delivery of
+                      the overall CofE Programme.
+                    </span>
+                    The board gives an oversight for the programme by reviewing
+                    the regional projects and the overall programme’s progress
+                    against plans. The board helps the programme and the
+                    regional projects by giving strategic direction and support
+                    when required. The project board reviews and makes decisions
+                    of any requests that materially change the original project
+                    plans.
+                  </p>
+                  <p>
+                    <span
+                      >The Programme Board has a key role in supporting the
+                      National Adoption Strategic Lead and the RAA Leaders Group
+                      in making decisions and providing both challenge and
+                      approval on issues affecting the progress of the
+                      programme.</span
+                    >
+                    <span
+                      >The board and its members create and maintain effective
+                      communication links between the programme / projects and
+                      organisations and stakeholder groups to ensure the
+                      dissemination of information and learning about the
+                      programme.</span
+                    >
+                    <span
+                      >The board provides advice and support for the academic
+                      partner who will be appointed to undertake research and
+                      evaluation of the previously funded multi-disciplinary
+                      teams and to look at themes emerging from the current
+                      projects.</span
+                    >
+                    The Programme Board shall have no formal decision-making
+                    powers.
+                  </p>
+                </div>
+                <p class="sub_title">Membership</p>
+                <div
+                  class="feature_centre_excellence_wrapper_development_membership"
+                >
+                  <p class="sub_title_regular">
+                    Membership of the board represents the different
+                    stakeholders within the adoption sector. On occasions, other
+                    individuals may be invited to attend meetings to provide
+                    specific information to support the Project Board’s
+                    decision-making.
+                  </p>
+                  <p class="sub_title_bold">Board members should be able to:</p>
+                  <ul>
+                    <li>Understand programme and project plans</li>
+                    <li>Own and communicate the programme vision</li>
+                    <li>
+                      Broker relationships with stakeholders within and outside
+                      the programme
+                    </li>
+                    <li>
+                      Be aware of the broader perspective and how it affects the
+                      programme
+                    </li>
+                  </ul>
+                  <p class="sub_title_regular mobile_view_padding">
+                    The following table shows the key persons and their roles
+                    within the Board.
+                  </p>
+                  <div class="centre_excellence_table_details">
+                    <table>
+                      <tr>
+                        <th>Name</th>
+                        <th>Organisation</th>
+                        <th>Role on the Board</th>
+                      </tr>
+                      <tr>
+                        <td>SS</td>
+                        <td>RAA Leaders Group</td>
+                        <td>Chair of the board</td>
+                      </tr>
+                      <tr>
+                        <td>JA</td>
+                        <td>National Adoption of Virtual School Heads</td>
+                        <td>Education Lead</td>
+                      </tr>
+                      <tr>
+                        <td>KB</td>
+                        <td>Manchester University NHS Foundation Trust</td>
+                        <td>Mental Health Representitive</td>
+                      </tr>
+                      <tr>
+                        <td>SL</td>
+                        <td>National Team</td>
+                        <td>Adoption Strategic Lead</td>
+                      </tr>
+                      <tr>
+                        <td>EB</td>
+                        <td>National Team</td>
+                        <td>Programme Manager</td>
+                      </tr>
+                      <tr>
+                        <td>LF</td>
+                        <td>DFE</td>
+                        <td>COE Policy Lead</td>
+                      </tr>
+                      <tr>
+                        <td>-</td>
+                        <td>NHS</td>
+                        <td>Transformation of Service</td>
+                      </tr>
+                      <tr>
+                        <td>RA</td>
+                        <td>Department of Health and Social Care</td>
+                        <td>Policy Lead for child health and safeguarding</td>
+                      </tr>
+                      <tr>
+                        <td>MJ</td>
+                        <td>CVAA</td>
+                        <td>Voluntary Agencies Representative</td>
+                      </tr>
+                      <tr>
+                        <td>EC</td>
+                        <td>We are Family</td>
+                        <td>Adoptive Parent</td>
+                      </tr>
+                      <tr>
+                        <td>AT</td>
+                        <td>Adoption UK</td>
+                        <td>Adoptive Parent</td>
+                      </tr>
+                      <tr>
+                        <td>JM</td>
+                        <td>PAC/UK</td>
+                        <td>Adoption Support Provider</td>
+                      </tr>
+                      <tr>
+                        <td>KB</td>
+                        <td>Oxford Brookes University</td>
+                        <td>Research Partner</td>
+                      </tr>
+                      <tr>
+                        <td>JS</td>
+                        <td>Coram-Baaf</td>
+                        <td>ADirector of Policy, Research and Development</td>
+                      </tr>
+                      <tr>
+                        <td>LS</td>
+                        <td>Coram Advisory Group</td>
+                        <td>AMedical Advisor/ Designated Doctor</td>
+                      </tr>
+                      <tr>
+                        <td>RLF</td>
+                        <td>Oxford University</td>
+                        <td>Health Economy/ Adopter</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="centre_excellence_project_board_sub_title">
+                    <p>
+                      The Project Board have discussed their roles and
+                      responsibilities and the board members are aware of the
+                      responsibilities of the role as outlined in the Terms of
+                      Reference above. Members agree to prioritise their
+                      attendance at board meetings.
+                    </p>
+                    <p>
+                      Members recognise that they may delegate tasks, but the
+                      responsibilities remain with them, therefore no
+                      substitutions can be made with regard to board attendance.
+                    </p>
+                  </div>
+                  <div class="centre_excellence_project_board_details">
+                    <p class="title">Project Board meetings</p>
+                    <ol>
+                      <li>
+                        Date of first meeting:
+                        <ol class="sub_list" type="a">
+                          <li>27th April 2023 – inaugural virtual meeting</li>
+                          <li>16th May 2023– CofE Theory of Change Workshop</li>
+                        </ol>
+                      </li>
+                      <li>
+                        Frequency of future meetings: The board will meet at
+                        least quarterly
+                      </li>
+                      <li>Time to be allowed: 1.5hr- 2hr</li>
+                      <li>
+                        Action Points / meeting notes will be circulated to the
+                        board members
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="footer_wrapper_logo">
-            <a class="footer_logo" href="./home.html">
-                <img src="../assets/images/header_logo.png" alt="logo" />
-            </a>
-            <ul class="footer_wrapper_logo_links footer_wrapper_logo_links_desktop">
-                <li>
-                    <p><a href="./about_us.html"> About us</a></p>
-                    <a href="./raa.html">What is a RAA?</a>
-                </li>
-                <li>
-                    <p><a href="./professional.html">Professionals</a></p>
-                    <a href="#">Events</a>
-                    <a href="#">Latest information</a>
-                    <a href="./early_permanence.html">Early permanence</a>
-                    <a href="./resource.html">Resources</a>
-                </li>
-                <li>
-                    <p><a href="./resource.html">Resources</a></p>
-                    <a href="./annual_report.html">Reports</a>
-                </li>
-            </ul>
-            <ul class="footer_wrapper_logo_links footer_wrapper_logo_links_mobile">
-                <li>
-                    <a class="raa_footer_mobile" href="./raa.html">What is a RAA?</a>
-                </li>
-                <li>
-                    <div class="main-nav_wrapper">
-                        <a>About Us</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
-                                alt="arrow right" /></span>
-                    </div>
-                    <ul class="main-nav__dropdown">
-                        <li><a href="./about_us.html">About us</a></li>
-                        <li><a href="./our_team.html">Our team</a></li>
-                        <li><a href="./contact_us.html">Contact us</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <div class="main-nav_wrapper">
-                        <a>Professionals</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
-                                alt="arrow right" /></span>
-                    </div>
-                    <ul class="main-nav__dropdown">
-                        <li><a href="./professional.html">Events</a></li>
-                        <li><a href="./early_permanence.html">Early Permanence</a></li>
-                        <li>
-                            <a href="./linking_matching.html">Linking and Matching</a>
-                        </li>
-                        <li>
-                            <a href="./maintaining_relationships.html">Maintaining Relationships</a>
-                        </li>
-                        <li><a href="./children_journey.html">Child’s Journey</a></li>
-                        <li><a href="./adoption_support.html">Adoption Support </a></li>
-                        <li>
-                            <a href="./centre_of_excellence.html">Centre of Excellence </a>
-                        </li>
-                        <li><a href="./commissioning.html">Commissioning</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <div class="main-nav_wrapper">
-                        <a>Resources</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
-                                alt="arrow right" /></span>
-                    </div>
-                    <ul class="main-nav__dropdown">
-                        <li><a href="./resource.html">Reports</a></li>
-                        <li><a href="./annual_report.html">Annual Reports</a></li>
-                        <li><a href="./professional.html">Professionals</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="footer_wrapper_copy_rights">
-            <p>Copyrighted © 2023 Adoption England</p>
-            <div class="footer_wrapper_copy_rights_links">
-                <a href="#">Privacy policy</a>
-                <a href="#">Terms of use</a>
-                <a href="#">Legal</a>
+      <div class="footer_wrapper_logo">
+        <a class="footer_logo" href="./home.html">
+          <img src="../assets/images/header_logo.png" alt="logo" />
+        </a>
+        <ul class="footer_wrapper_logo_links footer_wrapper_logo_links_desktop">
+          <li>
+            <p><a href="./about_us.html"> About us</a></p>
+            <a href="./raa.html">What is a RAA?</a>
+          </li>
+          <li>
+            <p><a href="./professional.html">Professionals</a></p>
+            <a href="#">Events</a>
+            <a href="#">Latest information</a>
+            <a href="./early_permanence.html">Early permanence</a>
+            <a href="./resource.html">Resources</a>
+          </li>
+          <li>
+            <p><a href="./resource.html">Resources</a></p>
+            <a href="./annual_report.html">Reports</a>
+          </li>
+        </ul>
+        <ul class="footer_wrapper_logo_links footer_wrapper_logo_links_mobile">
+          <li>
+            <a class="raa_footer_mobile" href="./raa.html">What is a RAA?</a>
+          </li>
+          <li>
+            <div class="main-nav_wrapper">
+              <a>About Us</a
+              ><span class="main-nav__arrow"
+                ><img src="../assets/images/arrow_right.png" alt="arrow right"
+              /></span>
             </div>
+            <ul class="main-nav__dropdown">
+              <li><a href="./about_us.html">About us</a></li>
+              <li><a href="./our_team.html">Our team</a></li>
+              <li><a href="./contact_us.html">Contact us</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="main-nav_wrapper">
+              <a>Professionals</a
+              ><span class="main-nav__arrow"
+                ><img src="../assets/images/arrow_right.png" alt="arrow right"
+              /></span>
+            </div>
+            <ul class="main-nav__dropdown">
+              <li><a href="./professional.html">Events</a></li>
+              <li><a href="./early_permanence.html">Early Permanence</a></li>
+              <li>
+                <a href="./linking_matching.html">Linking and Matching</a>
+              </li>
+              <li>
+                <a href="./maintaining_relationships.html"
+                  >Maintaining Relationships</a
+                >
+              </li>
+              <li><a href="./children_journey.html">Child’s Journey</a></li>
+              <li><a href="./adoption_support.html">Adoption Support </a></li>
+              <li>
+                <a href="./centre_of_excellence.html">Centre of Excellence </a>
+              </li>
+              <li><a href="./commissioning.html">Commissioning</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="main-nav_wrapper">
+              <a>Resources</a
+              ><span class="main-nav__arrow"
+                ><img src="../assets/images/arrow_right.png" alt="arrow right"
+              /></span>
+            </div>
+            <ul class="main-nav__dropdown">
+              <li><a href="./resource.html">Reports</a></li>
+              <li><a href="./annual_report.html">Annual Reports</a></li>
+              <li><a href="./professional.html">Professionals</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_wrapper_copy_rights">
+        <p>Copyrighted © 2023 Adoption England</p>
+        <div class="footer_wrapper_copy_rights_links">
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms of use</a>
+          <a href="#">Legal</a>
         </div>
+      </div>
     </footer>
     <script src="../js/main.js"></script>
-</body>
-
+  </body>
 </html>

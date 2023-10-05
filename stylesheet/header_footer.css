@@ -4,7 +4,7 @@
   --white: #ffffff;
   --paradiso: #358182;
   --balticSea: #221f24;
-  --amaranth: #e62a50;
+  --amaranth: #C42444;
   --gallery: #f0f0f0;
   --balticSea: #29272c;
   --casal: #265c5d;
@@ -21,8 +21,8 @@
   --blackHaze: #edefef;
   --tuatara: #20201f;
   --whisperBackground: #f1ebf6;
-  --maroonFlush: #cc2547;
-  --maroonFlushActive: #b2213e;
+  --maroonFlush: #B2213E;
+  --maroonFlushActive: #87192F;
   --mercury: #e3e3e3;
 }
 
@@ -71,6 +71,7 @@ button {
 .header_wrapper_nav li:hover {
   background-color: rgba(2, 28, 29, 0.04);
 }
+
 .header_wrapper_logo img {
   width: 120px;
   height: 38px;
@@ -170,13 +171,26 @@ button {
 }
 
 .footer_wrapper_logo_links li {
-  margin-right: 85px;
+  margin-right: 93px;
+}
+
+.footer_wrapper_logo_links li:first-child {
+  margin-right: 93px;
+}
+
+.footer_wrapper_logo_links li:nth-child(2) {
+  margin-right: 70px;
+}
+
+.footer_wrapper_logo_links li:last-child {
+  margin-right: 93px;
 }
 
 .footer_wrapper_logo_links p a {
   font-size: 16px;
   color: var(--casal);
   padding-bottom: 8px;
+  font-weight: 500;
 }
 
 .footer_wrapper_logo_links a {
@@ -202,6 +216,15 @@ button {
   font-size: 16px;
   color: var(--black);
   margin-right: 105px;
+  line-height: 120%;
+}
+
+.footer_wrapper_copy_rights a:first-child {
+  margin-right: 97px;
+}
+
+.footer_wrapper_copy_rights a:nth-child(2) {
+  margin-right: 111px;
 }
 
 .feature_video_banner_wrapper {
@@ -256,6 +279,11 @@ button {
 header:hover + main > .feature_video_banner_wrapper {
   z-index: -1;
 }
+
+.footer_wrapper_copy_rights_links a:last-child {
+  margin-right: 133px;
+}
+
 /* Media Query */
 @media screen and (max-width: 767px) {
   .header_wrapper_logo,
@@ -279,8 +307,8 @@ header:hover + main > .feature_video_banner_wrapper {
   }
   .header_wrapper_mobile_toggle .header_wrapper_mobile_menu {
     background-image: url("../assets/images/menu_icon.png");
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -488,6 +516,16 @@ header:hover + main > .feature_video_banner_wrapper {
   .header_wrapper_mobile_details ul li .active a {
     color: var(--amaranth) !important;
   }
+
+  .footer_wrapper_logo_links li:nth-child(2) {
+    margin: 0px;
+  }
+  .footer_wrapper_logo_links li:nth-child(3) {
+    margin: 0px;
+  }
+  .footer_wrapper_logo_links li:nth-child(4) {
+    margin: 0px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -502,6 +540,11 @@ header:hover + main > .feature_video_banner_wrapper {
   font-family: Urbanist-Regular;
   src: url("../assets/fonts/Urbanist-Regular.ttf");
 }
+
+@font-face {
+  font-family: Urbanist-Medium;
+  src: url("../assets/fonts/Urbanist-Medium.ttf");
+}
 @font-face {
   font-family: Urbanist-Bold;
   src: url("../assets/fonts/Urbanist-Bold.ttf");
@@ -514,6 +557,12 @@ header:hover + main > .feature_video_banner_wrapper {
   font-family: Manrope-Regular;
   src: url("../assets/fonts/Manrope-Regular.ttf");
 }
+
+@font-face {
+  font-family: Manrope-Medium;
+  src: url("../assets/fonts/Manrope-Medium.ttf");
+}
+
 @font-face {
   font-family: Manrope-Bold;
   src: url("../assets/fonts/Manrope-Bold.ttf");
@@ -522,19 +571,34 @@ header:hover + main > .feature_video_banner_wrapper {
   font-family: Manrope-SemiBold;
   src: url("../assets/fonts/Manrope-SemiBold.ttf");
 }
+
+@font-face {
+  font-family: Manrope-ExtraBold;
+  src: url("../assets/fonts/Manrope-ExtraBold.ttf");
+}
+
 /* Fonts Family */
 /* Fonts Applied */
-.feature_early_pre_wrapper_title,
-.feature_early_pre_wrapper_sub-title,
-.feature_national_early_permenance .title,
-.feature_professional_wrapper_title,
-.upcoming_events_title,
 .more_about_raa,
 .feature_raa_wrapper_title,
 .feature_resource_wrapper_title,
-.feature_annual_report_wrapper_title {
+.feature_annual_report_wrapper_title,
+.feature_linking_wrapper_title,
+.feature_linking_children_wrapper .title,
+.feature_about_us_wrapper_title,
+.feature_about_us_wrapper_upcoming .title,
+.feature_reports_wrapper_title,
+.feature_linking_children_wrapper .title,
+.feature_about_us_wrapper_title,
+.feature_about_us_wrapper_upcoming .title,
+.feature_reports_wrapper_title,.feature_commissioning_wrapper_title {
   font-family: Urbanist-Regular;
 }
+
+.upcoming_events_details_content_title {
+  font-family: Urbanist-Medium;
+}
+
 .feature_annual_report_links_details a,
 .title_report,
 .menu_toggle .header_wrapper_mobile_logo_title,
@@ -545,14 +609,26 @@ header:hover + main > .feature_video_banner_wrapper {
 .feature_contact_us_wrapper_title,
 .contact_us_title,
 .contact-us-header-secondary,
-.contact-us-details,.feature_maintaing_relationship_links_wrapper a {
+.contact-us-details,
+.feature_maintaing_relationship_links_wrapper a,
+.feature_professional_wrapper_title,
+.feature_early_pre_wrapper_title,
+.upcoming_events_title,
+.feature_national_early_permenance .title,
+.feature_adoption_support_wrapper_title,
+.feature_linking_wrapper_title,
+.feature_maintaining_relationship_wrapper_title,
+.title_maintain span,
+.feature_children_wrapper_title,
+.feature_centre_excellence_wrapper_title,
+.feature_centre_excellence_wrapper_development .title,
+.feature_centre_excellence_wrapper_development .sub_title {
   font-family: Urbanist-SemiBold;
 }
 .feature_early_pre_wrapper_links ul li a,
 .early_pre_sub_heading p,
 .feature_national_early_permenance_subheading p,
 .feature_pdf_download span,
-.feature_pdf_download a,
 .footer_wrapper_logo_links a,
 .footer_wrapper_logo_links li p,
 .footer_wrapper_copy_rights p,
@@ -568,9 +644,18 @@ table tr th,
 table tr td,
 .feature_report_adopted_wrapper ul li,
 ul li,
-ol li {
+ol li,
+.feature_early_pre_wrapper_sub-title,
+.header_wrapper_nav .header_wrapper_nav_links_sub_menu li:hover a {
   font-family: Manrope-Regular;
 }
+
+.book_now,
+.footer_wrapper_logo_links li p a,
+.feature_pdf_download a {
+  font-family: Manrope-Medium;
+}
+
 .linking_journey_table_details .table_title,
 .active_profession a,
 .feature_raa_wrapper_links,
@@ -600,6 +685,11 @@ ol li {
   font-family: Manrope-SemiBold;
 }
 .header_wrapper_nav_links .header_active > a {
+  font-family: Manrope-ExtraBold;
+}
+
+.header_wrapper_nav_links .header_active > a,
+.header_wrapper_nav li:hover > a {
   font-family: Manrope-Bold;
 }
 /* Fonts Applied */
