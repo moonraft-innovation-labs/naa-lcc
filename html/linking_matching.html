@@ -2,444 +2,435 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="../assets/images/favicon.ico" rel="icon" />
-    <link rel="stylesheet" href="../stylesheet/reset.css" type="text/css" />
-    <link rel="stylesheet" href="../stylesheet/header_footer.css" type="text/css" />
-    <link rel="stylesheet" href="../stylesheet/linking_matching.css" type="text/css" />
-    <title>Linking and Matching</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="../assets/images/favicon.ico" rel="icon" />
+  <link rel="stylesheet" href="../stylesheet/reset.css" type="text/css" />
+  <link rel="stylesheet" href="../stylesheet/header_footer.css" type="text/css" />
+  <link rel="stylesheet" href="../stylesheet/linking_matching.css" type="text/css" />
+  <title>Linking and Matching</title>
 </head>
 
 <body class="page_wrapper">
-    <header class="header">
-        <div class="header_wrapper_logo">
-            <a href="./home.html">
-                <img src="../assets/images/header_logo.png" alt="logo" />
-            </a>
-            <div class="header_wrapper_logo_links">
-                <a href="./about_us.html">About Us?</a>
-                <a href="./raa.html">What is RAA?</a>
-                <a class="header_wrapper_logo_button" href="https://www.youcanadopt.co.uk/" target="_blank">
-                    Considering Adopting?
+  <header class="header">
+    <div class="header_wrapper_logo">
+      <a href="./home.html">
+        <img src="../assets/images/header_logo.png" alt="logo" />
+      </a>
+      <div class="header_wrapper_logo_links">
+        <a href="./about_us.html">About Us?</a>
+        <a href="./raa.html">What is RAA?</a>
+        <a class="header_wrapper_logo_button" href="https://www.youcanadopt.co.uk/" target="_blank">
+          Considering Adopting?
+        </a>
+      </div>
+    </div>
+    <div class="header_wrapper_nav">
+      <ul class="header_wrapper_nav_links">
+        <li><a>Adopted People</a></li>
+        <li><a>Adoptive Parents</a></li>
+        <li><a>Birth Families</a></li>
+        <li class="header_wrapper_nav_links_open header_active">
+          <a href="./professional.html">Professionals</a>
+          <ul class="header_wrapper_nav_links_sub_menu">
+            <li><a href="./professional.html">Events</a></li>
+            <li><a href="./early_permanence.html">Early Permanence</a></li>
+            <li>
+              <a href="./linking_matching.html">Linking and Matching</a>
+            </li>
+            <li>
+              <a href="./maintaining_relationships.html">Maintaining Relationships</a>
+            </li>
+            <li><a href="./children_journey.html">Child’s Journey</a></li>
+            <li><a href="./adoption_support.html">Adoption Support </a></li>
+            <li>
+              <a href="./centre_of_excellence.html">Centre of Excellence </a>
+            </li>
+            <li><a href="./commissioning.html">Commissioning</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="header_wrapper_nav_links">
+        <li><a>Useful information</a></li>
+        <li class="header_wrapper_nav_links_open">
+          <a href="./resource.html">Resources</a>
+          <ul class="header_wrapper_nav_links_sub_menu">
+            <li><a>Reports</a></li>
+            <li><a>Subject</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- Responsive header  -->
+    <div class="header_wrapper_mobile" id="header_wrapper_mobile">
+      <div class="header_wrapper_mobile_logo">
+        <div class="header_wrapper_mobile_logo_icon">
+          <a href="./home.html">
+            <img src="../assets/images/header_logo.png" alt="logo" />
+          </a>
+          <span class="header_wrapper_mobile_logo_title">Menu</span>
+        </div>
+
+        <button class="header_wrapper_mobile_toggle" id="header_wrapper_mobile_toggle">
+          <div class="header_wrapper_mobile_menu"></div>
+        </button>
+      </div>
+      <div class="header_wrapper_mobile_details">
+        <ul>
+          <li>
+            <div class="main-nav_wrapper">
+              <a class="raa_mobile" href="./raa.html">What is RAA?</a>
+            </div>
+          </li>
+          <li>
+            <div class="main-nav_wrapper">
+              <a>About Us</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
+                  alt="arrow right" /></span>
+            </div>
+            <ul class="main-nav__dropdown">
+              <li><a href="./about_us.html">About us</a></li>
+              <li><a href="./our_team.html">Our team</a></li>
+              <li><a href="./contact_us.html">Contact us</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="main-nav_wrapper">
+              <a>Professionals</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
+                  alt="arrow right" /></span>
+            </div>
+            <ul class="main-nav__dropdown">
+              <li><a href="./professional.html">Events</a></li>
+              <li><a href="./early_permanence.html">Early Permanence</a></li>
+              <li>
+                <a href="./linking_matching.html">Linking and Matching</a>
+              </li>
+              <li>
+                <a href="./maintaining_relationships.html">Maintaining Relationships</a>
+              </li>
+              <li><a href="./children_journey.html">Child’s Journey</a></li>
+              <li><a href="./adoption_support.html">Adoption Support </a></li>
+              <li>
+                <a href="./centre_of_excellence.html">Centre of Excellence
                 </a>
+              </li>
+              <li><a href="./commissioning.html">Commissioning</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="main-nav_wrapper">
+              <a>Resources</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
+                  alt="arrow right" /></span>
             </div>
-        </div>
-        <div class="header_wrapper_nav">
-            <ul class="header_wrapper_nav_links">
-                <li><a>Adopted People</a></li>
-                <li><a>Adoptive Parents</a></li>
-                <li><a>Birth Families</a></li>
-                <li class="header_wrapper_nav_links_open header_active">
-                    <a href="./professional.html">Professionals</a>
-                    <ul class="header_wrapper_nav_links_sub_menu">
-                        <li><a href="./professional.html">Events</a></li>
-                        <li><a href="./early_permanence.html">Early Permanence</a></li>
-                        <li>
-                            <a href="./linking_matching.html">Linking and Matching</a>
-                        </li>
-                        <li>
-                            <a href="./maintaining_relationships.html">Maintaining Relationships</a>
-                        </li>
-                        <li><a href="./children_journey.html">Child’s Journey</a></li>
-                        <li><a href="./adoption_support.html">Adoption Support </a></li>
-                        <li>
-                            <a href="./centre_of_excellence.html">Centre of Excellence
-                            </a>
-                        </li>
-                        <li><a href="./commissioning.html">Commissioning</a></li>
-                    </ul>
-                </li>
+            <ul class="main-nav__dropdown">
+              <li><a href="./resource.html">Reports</a></li>
+              <li><a href="./resource.html">Annual Reports</a></li>
+              <li><a href="./professional.html">Professionals</a></li>
             </ul>
-            <ul class="header_wrapper_nav_links">
-                <li><a>Useful information</a></li>
-                <li class="header_wrapper_nav_links_open">
-                    <a href="./resource.html">Resources</a>
-                    <ul class="header_wrapper_nav_links_sub_menu">
-                        <li><a>Reports</a></li>
-                        <li><a>Subject</a></li>
-                    </ul>
-                </li>
-            </ul>
+          </li>
+        </ul>
+        <a class="header_wrapper_logo_button_mobile" href="https://www.youcanadopt.co.uk/" target="_blank">
+          Considering Adopting?
+        </a>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section>
+      <div class="feature_linking_wrapper">
+        <div class="feature_linking_wrapper_links">
+          <ul class="profession_hover">
+            <li><a href="./professional.html">Events</a></li>
+            <li><a href="./early_permanence.html">Early Permanence</a></li>
+            <li class="active_profession">
+              <a href="./linking_matching.html">Linking and Matching</a>
+            </li>
+            <li>
+              <a href="./maintaining_relationships.html">Maintaining Relationships</a>
+            </li>
+            <li>
+              <a href="./children_journey.html">Child’s Journey</a>
+            </li>
+            <li><a href="./adoption_support.html">Adoption Support</a></li>
+            <li>
+              <a href="./centre_of_excellence.html">Centre of Excellence</a>
+            </li>
+            <li><a href="./commissioning.html">Commissioning </a></li>
+          </ul>
         </div>
-        <!-- Responsive header  -->
-        <div class="header_wrapper_mobile" id="header_wrapper_mobile">
-            <div class="header_wrapper_mobile_logo">
-                <div class="header_wrapper_mobile_logo_icon">
-                    <a href="./home.html">
-                        <img src="../assets/images/header_logo.png" alt="logo" />
-                    </a>
-                    <span class="header_wrapper_mobile_logo_title">Menu</span>
-                </div>
+        <div class="feature_linking_wrapper_details">
+          <div class="feature_linking_wrapper_content">
+            <div class="feature_linking_wrapper_background">
+              <p class="feature_linking_wrapper_title">
+                Linking and Matching
+              </p>
+              <p class="feature_linking_wrapper_sub-title">
+                Family finding for children and matching them with adopters is
+                a crucial part of a child’s journey to adoption
+              </p>
+            </div>
+            <img src="../assets/images/linking_matching_banner_background.png" alt="linking background" />
+          </div>
+          <div class="feature_linking_matching_wrapper">
+            <p class="title">
+              Linking and Matching working group has number of aims:
+            </p>
+            <div class="feature_linking_children_wrapper">
+              <p class="title" id="linking_children_wrapper">For children</p>
+              <ul>
+                <li>
+                  <p class="children_icon">
+                    <img src="../assets/images/linking_children_icon_1.png" alt="children set icon" />
+                  </p>
+                  <p>
+                    <span class="sub_title"><b>Improved and speedier permanency </b>opportunities
+                      through early, consistent, and accurate assessment of
+                      matching and placement needs.
+                    </span>
+                  </p>
+                </li>
+                <li>
+                  <p class="children_icon">
+                    <img src="../assets/images/linking_children_icon_2.png" alt="children set icon" />
+                  </p>
+                  <p></p>
+                  <p>
+                    <span class="sub_title"><b>Greater placement stability </b>through earlier -
+                      placement and better understanding of children’s support
+                      needs.</span>
+                  </p>
+                </li>
+                <li>
+                  <p class="children_icon">
+                    <img src="../assets/images/linking_children_icon_3.png" alt="children set icon" />
+                  </p>
+                  <p></p>
+                  <p>
+                    <span class="sub_title"><b>Earlier attachments</b>, reducing impacts of trauma
+                      and loss and improving life outcomes.</span>
+                  </p>
+                </li>
+                <li>
+                  <p class="children_icon">
+                    <img src="../assets/images/linking_children_icon_4.png" alt="children set icon" />
+                  </p>
+                  <p></p>
+                  <p>
+                    <span class="sub_title">Providing the
+                      <b>Best possible permanency opportunity </b>for all
+                      children in the system by ensuring those likely to wait
+                      longer are identified earlier and family finding plans
+                      put in place.</span>
+                  </p>
+                </li>
+                <li>
+                  <p class="children_icon">
+                    <img src="../assets/images/linking_children_icon_5.png" alt="children set icon" />
+                  </p>
+                  <p></p>
+                  <p>
+                    <span class="sub_title">Reducing delay for children by
+                      <b>Diversifying the regional </b>pool of adopters.</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
 
-                <button class="header_wrapper_mobile_toggle" id="header_wrapper_mobile_toggle">
-                    <div class="header_wrapper_mobile_menu"></div>
-                </button>
+            <div class="feature_linking_children_wrapper feature_adoptive_children_wrapper">
+              <p class="title" id="linking_adoptive_wrapper">
+                For Adoptive families
+              </p>
+              <ul>
+                <li>
+                  <p class="children_icon">
+                    <img src="../assets/images/linking_children_icon_2.png" alt="children set icon" />
+                  </p>
+                  <p>
+                    <span class="sub_title"><b>Greater placement stability </b>from tailored,
+                      informed adoption support packages secured at the point
+                      of placement
+                    </span>
+                  </p>
+                </li>
+                <li>
+                  <p class="children_icon">
+                    <img src="../assets/images/linking_children_icon_6.png" alt="children set icon" />
+                  </p>
+                  <p></p>
+                  <p>
+                    <span class="sub_title"><b>Increased equality </b>of opportunity in finding the
+                      right match through coordinated national family finding
+                      (adds value to regional approaches to matching for
+                      children who wait longer).</span>
+                  </p>
+                </li>
+                <li>
+                  <p class="children_icon">
+                    <img src="../assets/images/linking_children_icon_7.png" alt="children set icon" />
+                  </p>
+                  <p></p>
+                  <p>
+                    <span class="sub_title"><b>Confidence </b>to come forward to adopt due to
+                      greater transparency within the system</span>
+                  </p>
+                </li>
+                <li>
+                  <p class="children_icon">
+                    <img src="../assets/images/linking_children_icon_8.png" alt="children set icon" />
+                  </p>
+                  <p></p>
+                  <p>
+                    <span class="sub_title">Adopters more
+                      <b>more aware of the needs of children </b> waiting and
+                      better prepared to meet them.</span>
+                  </p>
+                </li>
+                <li>
+                  <p class="children_icon">
+                    <img src="../assets/images/linking_children_icon_9.png" alt="children set icon" />
+                  </p>
+                  <p></p>
+                  <p>
+                    <span class="sub_title">More <b>Timely matching and placement </b>leading to
+                      earlier attachments.
+                    </span>
+                  </p>
+                </li>
+              </ul>
             </div>
-            <div class="header_wrapper_mobile_details">
-                <ul>
-                    <li>
-                        <div class="main-nav_wrapper">
-                            <a class="raa_mobile" href="./raa.html">What is RAA?</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="main-nav_wrapper">
-                            <a>About Us</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
-                                    alt="arrow right" /></span>
-                        </div>
-                        <ul class="main-nav__dropdown">
-                            <li><a href="./about_us.html">About us</a></li>
-                            <li><a href="./our_team.html">Our team</a></li>
-                            <li><a href="./contact_us.html">Contact us</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <div class="main-nav_wrapper">
-                            <a>Professionals</a><span class="main-nav__arrow"><img
-                                    src="../assets/images/arrow_right.png" alt="arrow right" /></span>
-                        </div>
-                        <ul class="main-nav__dropdown">
-                            <li><a href="./professional.html">Events</a></li>
-                            <li><a href="./early_permanence.html">Early Permanence</a></li>
-                            <li>
-                                <a href="./linking_matching.html">Linking and Matching</a>
-                            </li>
-                            <li>
-                                <a href="./maintaining_relationships.html">Maintaining Relationships</a>
-                            </li>
-                            <li><a href="./children_journey.html">Child’s Journey</a></li>
-                            <li><a href="./adoption_support.html">Adoption Support </a></li>
-                            <li>
-                                <a href="./centre_of_excellence.html">Centre of Excellence
-                                </a>
-                            </li>
-                            <li><a href="./commissioning.html">Commissioning</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <div class="main-nav_wrapper">
-                            <a>Resources</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
-                                    alt="arrow right" /></span>
-                        </div>
-                        <ul class="main-nav__dropdown">
-                            <li><a href="./resource.html">Reports</a></li>
-                            <li><a href="./resource.html">Annual Reports</a></li>
-                            <li><a href="./professional.html">Professionals</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <a class="header_wrapper_logo_button_mobile" href="https://www.youcanadopt.co.uk/" target="_blank">
-                    Considering Adopting?
-                </a>
-            </div>
-        </div>
-    </header>
-    <main id="main">
-        <section>
-            <div class="feature_linking_wrapper">
-                <div class="feature_linking_wrapper_links">
-                    <ul>
-                        <li><a href="./professional.html">Events</a></li>
-                        <li><a href="./early_permanence.html">Early Permanence</a></li>
-                        <li class="active_profession">
-                            <a href="./linking_matching.html">Linking and Matching</a>
-                        </li>
-                        <li>
-                            <a href="./maintaining_relationships.html">Maintaining Relationships</a>
-                        </li>
-                        <li>
-                            <a href="./children_journey.html">Child’s Journey</a>
-                        </li>
-                        <li><a href="./adoption_support.html">Adoption Support</a></li>
-                        <li><a href="./centre_of_excellence.html">Centre of Excellence</a></li>
-                        <li><a href="./commissioning.html">Commissioning </a></li>
-                    </ul>
-                </div>
-                <div class="feature_linking_wrapper_details">
-                    <div class="feature_linking_wrapper_content">
-                        <div class="feature_linking_wrapper_background">
-                            <p class="feature_linking_wrapper_title">
-                                Linking and Matching
-                            </p>
-                            <p class="feature_linking_wrapper_sub-title">
-                                Family finding for children and matching them with adopters is a crucial part of a
-                                child’s journey to adoption
-                            </p>
-                        </div>
-                        <img src="../assets/images/linking_matching_banner_background.png" alt="linking background" />
-                    </div>
-                    <div class="feature_linking_matching_wrapper">
-                        <p class="title">
-                            Linking and Matching working group has number of aims:
-                        </p>
-                        <div class="feature_linking_children_wrapper">
-                            <p class="title" id="linking_children_wrapper">For children</p>
-                            <ul>
-                                <li>
-                                    <p class="children_icon">
-                                        <img src="../assets/images/linking_children_icon_1.png"
-                                            alt="children set icon" />
-                                    </p>
-                                    <p>
-                                        <span class="sub_title"><b>Improved and speedier permanency </b>opportunities
-                                            through early, consistent, and accurate assessment of
-                                            matching and placement needs.
-                                        </span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p class="children_icon">
-                                        <img src="../assets/images/linking_children_icon_2.png"
-                                            alt="children set icon" />
-                                    </p>
-                                    <p></p>
-                                    <p>
-                                        <span class="sub_title"><b>Greater placement stability </b>through earlier -
-                                            placement and better understanding of children’s support
-                                            needs.</span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p class="children_icon">
-                                        <img src="../assets/images/linking_children_icon_3.png"
-                                            alt="children set icon" />
-                                    </p>
-                                    <p></p>
-                                    <p>
-                                        <span class="sub_title"><b>Earlier attachments</b>, reducing impacts of trauma
-                                            and loss and improving life outcomes.</span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p class="children_icon">
-                                        <img src="../assets/images/linking_children_icon_4.png"
-                                            alt="children set icon" />
-                                    </p>
-                                    <p></p>
-                                    <p>
-                                        <span class="sub_title">Providing the
-                                            <b>Best possible permanency opportunity </b>for all
-                                            children in the system by ensuring those likely to wait
-                                            longer are identified earlier and family finding plans
-                                            put in place.</span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p class="children_icon">
-                                        <img src="../assets/images/linking_children_icon_5.png"
-                                            alt="children set icon" />
-                                    </p>
-                                    <p></p>
-                                    <p>
-                                        <span class="sub_title">Reducing delay for children by
-                                            <b>Diversifying the regional </b>pool of adopters.</span>
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
 
-                        <div class="feature_linking_children_wrapper feature_adoptive_children_wrapper">
-                            <p class="title" id="linking_adoptive_wrapper">
-                                For Adoptive families
-                            </p>
-                            <ul>
-                                <li>
-                                    <p class="children_icon">
-                                        <img src="../assets/images/linking_children_icon_2.png"
-                                            alt="children set icon" />
-                                    </p>
-                                    <p>
-                                        <span class="sub_title"><b>Greater placement stability </b>from tailored,
-                                            informed adoption support packages secured at the point
-                                            of placement
-                                        </span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p class="children_icon">
-                                        <img src="../assets/images/linking_children_icon_6.png"
-                                            alt="children set icon" />
-                                    </p>
-                                    <p></p>
-                                    <p>
-                                        <span class="sub_title"><b>Increased equality </b>of opportunity in finding the
-                                            right match through coordinated national family finding
-                                            (adds value to regional approaches to matching for
-                                            children who wait longer).</span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p class="children_icon">
-                                        <img src="../assets/images/linking_children_icon_7.png"
-                                            alt="children set icon" />
-                                    </p>
-                                    <p></p>
-                                    <p>
-                                        <span class="sub_title"><b>Confidence </b>to come forward to adopt due to
-                                            greater transparency within the system</span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p class="children_icon">
-                                        <img src="../assets/images/linking_children_icon_8.png"
-                                            alt="children set icon" />
-                                    </p>
-                                    <p></p>
-                                    <p>
-                                        <span class="sub_title">Adopters more
-                                            <b>more aware of the needs of children </b> waiting and
-                                            better prepared to meet them.</span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p class="children_icon">
-                                        <img src="../assets/images/linking_children_icon_9.png"
-                                            alt="children set icon" />
-                                    </p>
-                                    <p></p>
-                                    <p>
-                                        <span class="sub_title">More <b>Timely matching and placement </b>leading to
-                                            earlier attachments.
-                                        </span>
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="linking_journey_table_details">
-                            <p class="sub_title">
-                                These resources here have been developed and piloted in
-                                partnership with a wide range of stakeholders and have
-                                considered best practice and research.
-                            </p>
-                            <p class="table_title">Sections:</p>
-                            <table>
-                                <tr>
-                                    <th>Area of support (sections)</th>
-                                    <th>Resource Name</th>
-                                    <th>Document/link</th>
-                                </tr>
-                                <tr>
-                                    <td>Guidance and Toolkits</td>
-                                    <td>AFdit Toolkit</td>
-                                    <td>A link and/or document (PDF/Word) not yet available</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td>National Practice Standards</td>
-                                    <td>A link and/or document (PDF/Word) not yet available</td>
-                                </tr>
-                                <tr>
-                                    <td>Training materials</td>
-                                    <td>Considering transracial adoption</td>
-                                    <td>A link yet available</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td>Films on key issues- ADHD;Autism,FASD</td>
-                                    <td>Youtube links not yet available</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
+            <div class="linking_journey_table_details">
+              <p class="sub_title">
+                These resources here have been developed and piloted in
+                partnership with a wide range of stakeholders and have
+                considered best practice and research.
+              </p>
+              <p class="table_title">Sections:</p>
+              <table>
+                <tr>
+                  <th>Area of support (sections)</th>
+                  <th>Resource Name</th>
+                  <th>Document/link</th>
+                </tr>
+                <tr>
+                  <td>Guidance and Toolkits</td>
+                  <td>AFdit Toolkit</td>
+                  <td>A link and/or document (PDF/Word) not yet available</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>National Practice Standards</td>
+                  <td>A link and/or document (PDF/Word) not yet available</td>
+                </tr>
+                <tr>
+                  <td>Training materials</td>
+                  <td>Considering transracial adoption</td>
+                  <td>A link yet available</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Films on key issues- ADHD;Autism,FASD</td>
+                  <td>Youtube links not yet available</td>
+                </tr>
+              </table>
             </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="footer_wrapper_logo">
-            <a class="footer_logo" href="./home.html">
-                <img src="../assets/images/header_logo.png" alt="logo" />
-            </a>
-            <ul class="footer_wrapper_logo_links footer_wrapper_logo_links_desktop">
-                <li>
-                    <p><a href="./about_us.html"> About us</a></p>
-                    <a href="./raa.html">What is a RAA?</a>
-                </li>
-                <li>
-                    <p><a href="./professional.html">Professionals</a></p>
-                    <a href="#">Events</a>
-                    <a href="#">Latest information</a>
-                    <a href="./early_permanence.html">Early permanence</a>
-                    <a href="./resource.html">Resources</a>
-                </li>
-                <li>
-                    <p><a href="./resource.html">Resources</a></p>
-                    <a href="./annual_report.html">Reports</a>
-                </li>
-            </ul>
-            <ul class="footer_wrapper_logo_links footer_wrapper_logo_links_mobile">
-                <li>
-                    <a class="raa_footer_mobile" href="./raa.html">What is a RAA?</a>
-                </li>
-                <li>
-                    <div class="main-nav_wrapper">
-                        <a>About Us</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
-                                alt="arrow right" /></span>
-                    </div>
-                    <ul class="main-nav__dropdown">
-                        <li><a href="./about_us.html">About us</a></li>
-                        <li><a href="./our_team.html">Our team</a></li>
-                        <li><a href="./contact_us.html">Contact us</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <div class="main-nav_wrapper">
-                        <a>Professionals</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
-                                alt="arrow right" /></span>
-                    </div>
-                    <ul class="main-nav__dropdown">
-                        <li><a href="./professional.html">Events</a></li>
-                        <li><a href="./early_permanence.html">Early Permanence</a></li>
-                        <li>
-                            <a href="./linking_matching.html">Linking and Matching</a>
-                        </li>
-                        <li>
-                            <a href="./maintaining_relationships.html">Maintaining Relationships</a>
-                        </li>
-                        <li><a href="./children_journey.html">Child’s Journey</a></li>
-                        <li><a href="./adoption_support.html">Adoption Support </a></li>
-                        <li>
-                            <a href="./centre_of_excellence.html">Centre of Excellence </a>
-                        </li>
-                        <li><a href="./commissioning.html">Commissioning</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <div class="main-nav_wrapper">
-                        <a>Resources</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
-                                alt="arrow right" /></span>
-                    </div>
-                    <ul class="main-nav__dropdown">
-                        <li><a href="./resource.html">Reports</a></li>
-                        <li><a href="./annual_report.html">Annual Reports</a></li>
-                        <li><a href="./professional.html">Professionals</a></li>
-                    </ul>
-                </li>
-            </ul>
+          </div>
         </div>
-        <div class="footer_wrapper_copy_rights">
-            <p>Copyrighted © 2023 Adoption England</p>
-            <div class="footer_wrapper_copy_rights_links">
-                <a href="#">Privacy policy</a>
-                <a href="#">Terms of use</a>
-                <a href="#">Legal</a>
-            </div>
-        </div>
-    </footer>
-    <script src="../js/main.js"></script>
-    <script>
-        // toggle arrow button
-        document.getElementById("linking_children_wrapper").onclick =
-            function () {
-                this.classList.toggle("toggle_linking_children");
-            };
-        document.getElementById("linking_adoptive_wrapper").onclick =
-            function () {
-                this.classList.toggle("toggle_linking_adoptive");
-            };
-    </script>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer_wrapper_logo">
+      <a class="footer_logo" href="./home.html">
+        <img src="../assets/images/header_logo.png" alt="logo" />
+      </a>
+      <ul class="footer_wrapper_logo_links footer_wrapper_logo_links_desktop">
+        <li>
+          <p><a href="./about_us.html"> About us</a></p>
+          <a href="./raa.html">What is a RAA?</a>
+        </li>
+        <li>
+          <p><a href="./professional.html">Professionals</a></p>
+          <a href="#">Events</a>
+          <a href="#">Latest information</a>
+          <a href="./early_permanence.html">Early permanence</a>
+          <a href="./resource.html">Resources</a>
+        </li>
+        <li>
+          <p><a href="./resource.html">Resources</a></p>
+          <a href="./resource.html">Reports</a>
+        </li>
+      </ul>
+      <ul class="footer_wrapper_logo_links footer_wrapper_logo_links_mobile">
+        <li>
+          <a class="raa_footer_mobile" href="./raa.html">What is a RAA?</a>
+        </li>
+        <li>
+          <div class="main-nav_wrapper">
+            <a>About Us</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
+                alt="arrow right" /></span>
+          </div>
+          <ul class="main-nav__dropdown">
+            <li><a href="./about_us.html">About us</a></li>
+            <li><a href="./our_team.html">Our team</a></li>
+            <li><a href="./contact_us.html">Contact us</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="main-nav_wrapper">
+            <a>Professionals</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
+                alt="arrow right" /></span>
+          </div>
+          <ul class="main-nav__dropdown">
+            <li><a href="./professional.html">Events</a></li>
+            <li><a href="./early_permanence.html">Early Permanence</a></li>
+            <li>
+              <a href="./linking_matching.html">Linking and Matching</a>
+            </li>
+            <li>
+              <a href="./maintaining_relationships.html">Maintaining Relationships</a>
+            </li>
+            <li><a href="./children_journey.html">Child’s Journey</a></li>
+            <li><a href="./adoption_support.html">Adoption Support </a></li>
+            <li>
+              <a href="./centre_of_excellence.html">Centre of Excellence </a>
+            </li>
+            <li><a href="./commissioning.html">Commissioning</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="main-nav_wrapper">
+            <a>Resources</a><span class="main-nav__arrow"><img src="../assets/images/arrow_right.png"
+                alt="arrow right" /></span>
+          </div>
+          <ul class="main-nav__dropdown">
+            <li><a href="./resource.html">Reports</a></li>
+            <li><a href="./resource.html">Annual Reports</a></li>
+            <li><a href="./professional.html">Professionals</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="footer_wrapper_copy_rights">
+      <p>Copyrighted © 2023 Adoption England</p>
+      <div class="footer_wrapper_copy_rights_links">
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms of use</a>
+        <a href="#">Legal</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+  <script>
+    // toggle arrow button
+    document.getElementById("linking_children_wrapper").onclick =
+      function () {
+        this.classList.toggle("toggle_linking_children");
+      };
+    document.getElementById("linking_adoptive_wrapper").onclick =
+      function () {
+        this.classList.toggle("toggle_linking_adoptive");
+      };
+  </script>
 </body>
 
 </html>

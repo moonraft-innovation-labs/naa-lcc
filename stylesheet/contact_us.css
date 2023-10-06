@@ -118,6 +118,7 @@
 .link_container a {
   color: var(--amaranth);
   text-decoration: underline;
+  font-weight: 500;
 }
 .link_container a:hover {
   color: var(--maroonFlush);

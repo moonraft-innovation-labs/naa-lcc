@@ -207,7 +207,7 @@
 }
 
 .video_modal_iframe {
-  width: calc(100% - 320px);
+  width: calc(100% - 800px);
   position: relative;
 }
 .close_icon {
@@ -220,7 +220,7 @@
   height: 32px;
 }
 .feature_early_pre_releated_videos_wrapper li .iframe_video {
-  height: 710px;
+  height: 510px;
   border-radius: 16px;
 }
 .adding_space {
@@ -303,7 +303,12 @@
     width: 100%;
   }
   .close_icon {
-    top: 40%;
+    top: 39%;
+    right: 10px;
+  }
+  .feature_early_pre_releated_videos_wrapper .close_icon img {
+    width: 23px;
+    height: 23px;
   }
   .adding_space {
     margin: 40px 0;

@@ -24,6 +24,7 @@
   --maroonFlush: #b2213e;
   --maroonFlushActive: #87192f;
   --mercury: #e3e3e3;
+  --catskillWhitePdf : #EFF7F7;
 }
 
 /* Colors Variable */
@@ -100,13 +101,15 @@ button {
 .header_wrapper_logo_links a:hover,
 .footer_wrapper_logo_links p a:hover,
 .footer_wrapper_logo_links a:hover,
-.footer_wrapper_copy_rights a:hover {
+.footer_wrapper_copy_rights a:hover,
+.profession_hover li a:hover {
   color: var(--maroonFlush);
 }
 .header_wrapper_logo_links .header_wrapper_logo_button:active,
 .footer_wrapper_logo_links p a:active,
 .footer_wrapper_logo_links a:active,
-.footer_wrapper_copy_rights a:active {
+.footer_wrapper_copy_rights a:active,
+.profession_hover li a:active {
   background-color: var(--maroonFlushActive);
 }
 .header_wrapper_logo_links .header_wrapper_logo_button:active {
@@ -429,7 +432,7 @@ header:hover + main > .feature_video_banner_wrapper {
   }
   .footer_wrapper_copy_rights_links a {
     font-size: 14px;
-    margin-right: 0;
+    margin-right: 0 !important;
   }
   .footer_wrapper_copy_rights p {
     width: 100%;
@@ -446,7 +449,7 @@ header:hover + main > .feature_video_banner_wrapper {
     padding: 0 0 48px;
   }
   .footer_wrapper_logo_links li {
-    margin-right: 0;
+    margin-right: 0 !important;
   }
   .footer_wrapper_logo_links a {
     padding: 0;
