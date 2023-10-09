@@ -24,13 +24,14 @@
   --maroonFlush: #b2213e;
   --maroonFlushActive: #87192f;
   --mercury: #e3e3e3;
-  --catskillWhitePdf : #EFF7F7;
+  --catskillWhitePdf: #eff7f7;
 }
 
 /* Colors Variable */
 * {
   box-sizing: border-box;
 }
+
 a {
   cursor: pointer;
   text-decoration: none;
@@ -44,12 +45,29 @@ button {
   background: transparent;
 }
 
+.feature_video_banner_wrapper::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  position: absolute;
+  background-image: linear-gradient(
+    88deg,
+    #000 2.3%,
+    rgba(0, 0, 0, 0.85) 58.59%,
+    rgba(0, 0, 0, 0) 98.42%
+  );
+}
+
 .header_active {
   font-weight: bold;
   background-color: rgba(2, 28, 91, 0.08);
   border-bottom: 3px solid var(--eden);
   padding: 20px 8px 20px 10px !important;
 }
+
 .header_wrapper_logo {
   display: flex;
   justify-content: space-between;
@@ -69,6 +87,7 @@ button {
 .header_wrapper_nav li {
   padding: 20px 0;
 }
+
 .header_wrapper_nav li:hover {
   background-color: rgba(2, 28, 29, 0.04);
 }
@@ -94,10 +113,12 @@ button {
   font-size: 16px;
   border-radius: 30px;
 }
+
 .header_wrapper_logo_links .header_wrapper_logo_button:hover {
   background-color: var(--maroonFlush);
   color: var(--white);
 }
+
 .header_wrapper_logo_links a:hover,
 .footer_wrapper_logo_links p a:hover,
 .footer_wrapper_logo_links a:hover,
@@ -105,6 +126,7 @@ button {
 .profession_hover li a:hover {
   color: var(--maroonFlush);
 }
+
 .header_wrapper_logo_links .header_wrapper_logo_button:active,
 .footer_wrapper_logo_links p a:active,
 .footer_wrapper_logo_links a:active,
@@ -112,12 +134,15 @@ button {
 .profession_hover li a:active {
   background-color: var(--maroonFlushActive);
 }
+
 .header_wrapper_logo_links .header_wrapper_logo_button:active {
   color: var(--white);
 }
+
 .header_wrapper_logo_links a:active {
   color: var(--maroonFlushActive);
 }
+
 .header_wrapper_nav_links li a {
   display: flex;
   align-items: center;
@@ -182,7 +207,7 @@ button {
 }
 
 .footer_wrapper_logo_links li:nth-child(2) {
-  margin-right: 93px;
+  margin-right: 70px;
 }
 
 .footer_wrapper_logo_links li:last-child {
@@ -240,31 +265,39 @@ button {
 .header_wrapper_nav_links_open {
   position: relative;
 }
+
 .header_wrapper_nav_links_sub_menu {
   display: none;
   background-color: var(--white);
   padding: 24px;
   border-radius: 12px;
 }
+
 .header_wrapper_nav_links_sub_menu li {
   padding: 0 0 32px;
   white-space: nowrap;
 }
+
 .header_wrapper_nav_links_sub_menu li a {
   color: var(--casal);
 }
+
 .header_wrapper_nav_links_sub_menu li:hover {
   background-color: var(--white);
 }
+
 .header_wrapper_nav_links_sub_menu li a:hover {
   color: var(--maroonFlush);
 }
+
 .header_wrapper_nav_links_sub_menu li a:active {
   color: var(--maroonFlushActive);
 }
+
 .header_wrapper_nav_links_sub_menu li:last-child {
   padding-bottom: 0px;
 }
+
 .header_wrapper_nav_links_open:hover .header_wrapper_nav_links_sub_menu {
   display: block;
   position: absolute;
@@ -272,6 +305,7 @@ button {
   z-index: 2;
   left: -20px;
 }
+
 .header_wrapper_nav_links_sub_menu li::after {
   content: "";
   position: absolute;
@@ -282,12 +316,25 @@ button {
   border-style: solid;
   border-color: transparent transparent var(--white) transparent;
 }
+
 header:hover + main > .feature_video_banner_wrapper {
   z-index: -1;
 }
 
+.footer_wrapper_copy_rights_links a:first-child {
+  margin-right: 97px;
+}
+
+.footer_wrapper_copy_rights_links a:nth-child(2) {
+  margin-right: 111px;
+}
+
 .footer_wrapper_copy_rights_links a:last-child {
-  margin-right: 93px;
+  margin-right: 133px;
+}
+
+.footer_logo {
+  width: 28%;
 }
 
 /* Media Query */
@@ -296,9 +343,11 @@ header:hover + main > .feature_video_banner_wrapper {
   .header_wrapper_nav {
     display: none;
   }
+
   .header_wrapper_mobile {
     height: 86px;
   }
+
   .header_wrapper_mobile_logo {
     position: relative;
     padding: 20px 30px 20px 24px;
@@ -311,6 +360,7 @@ header:hover + main > .feature_video_banner_wrapper {
     width: 150px;
     height: 46px;
   }
+
   .header_wrapper_mobile_toggle .header_wrapper_mobile_menu {
     background-image: url("../assets/images/menu_icon.png");
     width: 32px;
@@ -318,9 +368,11 @@ header:hover + main > .feature_video_banner_wrapper {
     background-repeat: no-repeat;
     background-size: contain;
   }
+
   .menu_toggle .header_wrapper_mobile_logo_icon img {
     display: none;
   }
+
   .menu_toggle .header_wrapper_mobile_menu {
     background-image: url("../assets/images/close_icon.png");
     width: 28px;
@@ -328,9 +380,11 @@ header:hover + main > .feature_video_banner_wrapper {
     background-repeat: no-repeat;
     background-size: contain;
   }
+
   .header_wrapper_mobile_logo_title {
     display: none;
   }
+
   .menu_toggle .header_wrapper_mobile_logo_title {
     display: inline-block;
     font-size: 24px;
@@ -339,20 +393,24 @@ header:hover + main > .feature_video_banner_wrapper {
     line-height: normal;
     color: var(--balticSea);
   }
+
   .header_wrapper_mobile_details {
     display: none;
     position: absolute;
     top: 75px;
     z-index: 1;
   }
+
   .menu_toggle .header_wrapper_mobile_details {
     display: block;
     width: 100%;
   }
+
   .header_wrapper_mobile_details {
     padding: 0px 0px 80px;
     background-color: var(--white);
   }
+
   .header_wrapper_mobile_details ul li {
     font-size: 20px;
     font-style: normal;
@@ -362,10 +420,12 @@ header:hover + main > .feature_video_banner_wrapper {
     padding: 40px 0 32px;
     /* border-bottom: 1px solid rgba(230, 42, 80, 0.2); */
   }
+
   .header_wrapper_mobile_details ul li a {
     color: var(--blueDianne) !important;
     font-weight: 800;
   }
+
   .main-nav_wrapper {
     display: flex;
     align-items: center;
@@ -380,12 +440,15 @@ header:hover + main > .feature_video_banner_wrapper {
     font-weight: 600;
     line-height: 120%;
   }
+
   .header_wrapper_mobile_details .main-nav__dropdown li a {
     color: var(--casal);
   }
+
   .header_wrapper_mobile_details ul li:last-child {
     border-bottom: none;
   }
+
   .header_wrapper_logo_button_mobile {
     display: block;
     color: var(--white);
@@ -396,33 +459,40 @@ header:hover + main > .feature_video_banner_wrapper {
     margin: 80px 24px 0;
     text-align: center;
   }
+
   .main-nav__arrow img {
     width: 24px;
     height: 24px;
     transform: rotate(90deg);
   }
+
   /* Header Section */
 
   /* Footer Section */
   .toggle_main + .footer {
     margin-top: 600px;
   }
+
   .footer {
     padding: 64px 0px 32px;
     overflow-x: hidden;
   }
+
   .footer_wrapper_logo {
     display: block;
   }
+
   .footer_wrapper_copy_rights {
     padding: 48px 0 0;
     margin: 0 24px;
     flex-direction: column-reverse;
     border-top: 1px solid rgba(230, 42, 80, 0.2);
   }
+
   .footer_wrapper_logo {
     border-bottom: none;
   }
+
   .footer_wrapper_copy_rights_links {
     width: 100%;
     display: flex;
@@ -430,96 +500,121 @@ header:hover + main > .feature_video_banner_wrapper {
     align-items: center;
     padding-bottom: 48px;
   }
+
   .footer_wrapper_copy_rights_links a {
     font-size: 14px;
     margin-right: 0 !important;
   }
+
   .footer_wrapper_copy_rights p {
     width: 100%;
   }
+
   .footer_logo {
     display: inline-block;
     width: 100%;
     padding-bottom: 56px;
   }
+
   .footer_wrapper_logo_links {
     display: block;
   }
+
   .footer_wrapper_logo_links p a {
     padding: 0 0 48px;
   }
+
   .footer_wrapper_logo_links li {
     margin-right: 0 !important;
   }
+
   .footer_wrapper_logo_links a {
     padding: 0;
   }
+
   .footer_wrapper_logo {
     padding-bottom: 0px;
   }
+
   .footer_wrapper_logo_links_desktop {
     display: none;
   }
+
   .footer_wrapper_logo_links_mobile .main-nav__arrow {
     width: 24px;
     height: 24px;
   }
+
   .footer_wrapper_logo_links_mobile .main-nav_wrapper {
     padding-bottom: 56px;
   }
+
   .footer_wrapper_logo_links_mobile .show {
     background-color: var(--mercury);
     padding: 0 40px;
     margin-bottom: 32px;
   }
+
   .footer_wrapper_logo_links_mobile .show li {
     padding-bottom: 48px;
   }
+
   .footer_wrapper_logo_links .raa_footer_mobile {
     padding-bottom: 56px;
   }
+
   .footer_wrapper_logo .footer_logo img,
   .footer_wrapper_logo_links .raa_footer_mobile,
   .footer_wrapper_logo_links_mobile .main-nav_wrapper {
     padding-left: 24px;
     padding-right: 24px;
   }
+
   .footer_wrapper_logo_links_mobile .active {
     background-color: var(--mercury);
     padding-top: 24px;
   }
+
   .footer_wrapper_logo_links_mobile .active a {
     color: var(--casal);
   }
+
   /* Footer Section */
   .toggle_main,
   .main-nav__dropdown {
     display: none;
   }
+
   .active img {
     transform: rotate(270deg);
   }
+
   .show {
     background-color: var(--whisperBackground);
     display: block;
   }
+
   .header_wrapper_mobile_details ul li:has(> .active) {
     background-color: var(--whisperBackground);
     margin: 0;
     padding: 40px 24px 0;
     border-bottom: none;
   }
+
   .header_wrapper_mobile_details .show li:first-child {
     padding-top: 56px;
   }
+
   .header_wrapper_mobile_details .show li:last-child {
     /* border-bottom: 1px solid rgba(230, 42, 80, 0.2); */
     padding-bottom: 56px;
   }
+
   .header_wrapper_mobile_details .show li {
     padding-left: 0;
     margin: 0 0 0 16px;
   }
+
   .header_wrapper_mobile_details ul li .active a {
     color: var(--amaranth) !important;
   }
@@ -527,12 +622,15 @@ header:hover + main > .feature_video_banner_wrapper {
   .footer_wrapper_logo_links li:nth-child(2) {
     margin: 0px;
   }
+
   .footer_wrapper_logo_links li:nth-child(3) {
     margin: 0px;
   }
+
   .footer_wrapper_logo_links li:nth-child(4) {
     margin: 0px;
   }
+
   .footer_wrapper_logo img {
     box-sizing: content-box;
     margin: 0;
@@ -545,6 +643,7 @@ header:hover + main > .feature_video_banner_wrapper {
     display: none;
   }
 }
+
 /* Media Query */
 /* Fonts Family */
 @font-face {
@@ -556,14 +655,17 @@ header:hover + main > .feature_video_banner_wrapper {
   font-family: Urbanist-Medium;
   src: url("../assets/fonts/Urbanist-Medium.ttf");
 }
+
 @font-face {
   font-family: Urbanist-Bold;
   src: url("../assets/fonts/Urbanist-Bold.ttf");
 }
+
 @font-face {
   font-family: Urbanist-SemiBold;
   src: url("../assets/fonts/Urbanist-SemiBold.ttf");
 }
+
 @font-face {
   font-family: Manrope-Regular;
   src: url("../assets/fonts/Manrope-Regular.ttf");
@@ -578,6 +680,7 @@ header:hover + main > .feature_video_banner_wrapper {
   font-family: Manrope-Bold;
   src: url("../assets/fonts/Manrope-Bold.ttf");
 }
+
 @font-face {
   font-family: Manrope-SemiBold;
   src: url("../assets/fonts/Manrope-SemiBold.ttf");
@@ -591,19 +694,14 @@ header:hover + main > .feature_video_banner_wrapper {
 /* Fonts Family */
 /* Fonts Applied */
 .more_about_raa,
-.feature_raa_wrapper_title,
-.feature_resource_wrapper_title,
 .feature_annual_report_wrapper_title,
-.feature_linking_wrapper_title,
 .feature_linking_children_wrapper .title,
-.feature_about_us_wrapper_title,
 .feature_about_us_wrapper_upcoming .title,
 .feature_reports_wrapper_title,
 .feature_linking_children_wrapper .title,
-.feature_about_us_wrapper_title,
 .feature_about_us_wrapper_upcoming .title,
 .feature_reports_wrapper_title,
-.feature_commissioning_wrapper_title {
+.feature_terms_legal_wrapper .feature_terms_legal_wrapper_title {
   font-family: Urbanist-Regular;
 }
 
@@ -616,27 +714,20 @@ header:hover + main > .feature_video_banner_wrapper {
 .menu_toggle .header_wrapper_mobile_logo_title,
 .header_wrapper_mobile_details ul li a,
 .our_team_header_secondary,
-.feature_our_team_wrapper_title,
 .our_team_title,
-.feature_contact_us_wrapper_title,
 .contact_us_title,
 .contact-us-header-secondary,
 .contact-us-details,
 .feature_maintaing_relationship_links_wrapper a,
-.feature_professional_wrapper_title,
-.feature_early_pre_wrapper_title,
 .upcoming_events_title,
 .feature_national_early_permenance .title,
-.feature_adoption_support_wrapper_title,
-.feature_linking_wrapper_title,
-.feature_maintaining_relationship_wrapper_title,
 .title_maintain span,
-.feature_children_wrapper_title,
-.feature_centre_excellence_wrapper_title,
 .feature_centre_excellence_wrapper_development .title,
-.feature_centre_excellence_wrapper_development .sub_title {
+.feature_centre_excellence_wrapper_development .sub_title,
+.feature_terms_legal_wrapper .sub_title {
   font-family: Urbanist-SemiBold;
 }
+
 .feature_early_pre_wrapper_links ul li a,
 .early_pre_sub_heading p,
 .feature_national_early_permenance_subheading p,
@@ -658,7 +749,8 @@ table tr td,
 ul li,
 ol li,
 .feature_early_pre_wrapper_sub-title,
-.header_wrapper_nav .header_wrapper_nav_links_sub_menu li:hover a {
+.header_wrapper_nav .header_wrapper_nav_links_sub_menu li:hover a,
+.feature_terms_legal_wrapper p {
   font-family: Manrope-Regular;
 }
 
@@ -680,10 +772,26 @@ ol li,
 .active_about_us a {
   font-family: Manrope-Bold !important;
 }
+
 .video_title,
-.feature_reports_wrapper_content_title {
+.feature_reports_wrapper_content_title,
+.video_banner_title,
+.feature_about_us_wrapper_title,
+.feature_our_team_wrapper_title,
+.feature_contact_us_wrapper_title,
+.feature_raa_wrapper_title,
+.feature_resource_wrapper_title,
+.feature_professional_wrapper_title,
+.feature_early_pre_wrapper_title,
+.feature_linking_wrapper_title,
+.feature_maintaining_relationship_wrapper_title,
+.feature_children_wrapper_title,
+.feature_adoption_support_wrapper_title,
+.feature_centre_excellence_wrapper_title,
+.feature_commissioning_wrapper_title {
   font-family: Urbanist-Bold;
 }
+
 .feature_centre_excellence_wrapper_development_membership .sub_title_bold,
 .centre_excellence_project_board_details .title,
 .our_team_header_tertiary,
@@ -696,6 +804,7 @@ ol li,
 .adoption_support_journey_table_details tr th {
   font-family: Manrope-SemiBold;
 }
+
 .header_wrapper_nav_links .header_active > a {
   font-family: Manrope-ExtraBold;
 }
@@ -704,20 +813,25 @@ ol li,
 .header_wrapper_nav li:hover > a {
   font-family: Manrope-Bold;
 }
+
 /* Fonts Applied */
 @media screen and (min-width: 768px) and (max-width: 1430px) {
   .header_wrapper_logo {
     padding: 16px 8.34%;
   }
+
   .header_wrapper_nav {
     padding: 0px 8.34%;
   }
+
   .footer {
     padding: 62px 8.34%;
   }
+
   .footer_logo {
     width: 22%;
   }
+
   .footer_wrapper_logo_links li {
     margin-right: 35px;
   }

@@ -47,19 +47,20 @@
   position: absolute;
   width: 51.6%;
   left: 56px;
-  top: 138px;
+  top: 98px;
 }
 .feature_our_team_wrapper_title {
   font-size: 56px;
   color: var(--white);
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 24px;
   line-height: 110%;
 }
 .feature_our_team_wrapper_sub-title {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--white);
   line-height: 160%;
+  font-weight: 600;
 }
 .feature_our_team_wrapper_upcoming {
   padding: 70px 120px 80px 56px;

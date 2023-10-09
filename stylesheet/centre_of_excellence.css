@@ -59,15 +59,16 @@
 .feature_centre_excellence_wrapper_title {
   font-size: 56px;
   color: var(--white);
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 24px;
   line-height: 120%;
 }
 
 .feature_centre_excellence_wrapper_sub-title {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--white);
   line-height: 160%;
+  font-weight: 600;
 }
 
 .feature_centre_excellence_wrapper_upcoming {
@@ -302,7 +303,7 @@
   }
 
   .feature_centre_excellence_wrapper_background {
-    top: 178px;
+    top: 96px;
     left: 24px;
     width: calc(100% - 48px);
   }

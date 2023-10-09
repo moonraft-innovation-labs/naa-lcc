@@ -50,14 +50,15 @@
 .feature_professional_wrapper_title {
   font-size: 56px;
   color: var(--white);
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 24px;
   line-height: 110%;
 }
 .feature_professional_wrapper_sub-title {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--white);
   line-height: 160%;
+  font-weight: 600;
 }
 .book_now {
   display: inline-block;
@@ -191,7 +192,7 @@
     font-family: "Urbanist-SemiBold";
   }
   .feature_professional_wrapper_background {
-    top: 178px;
+    top: 140px;
     left: 24px;
     width: calc(100% - 48px);
   }

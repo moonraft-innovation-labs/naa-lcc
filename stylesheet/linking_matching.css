@@ -45,19 +45,20 @@
   position: absolute;
   width: 50%;
   left: 56px;
-  top: 140px;
+  top: 175px;
 }
 .feature_linking_wrapper_title {
   font-size: 56px;
   color: var(--white);
   margin-bottom: 24px;
   line-height: 110%;
-  font-weight: 600;
+  font-weight: 700;
 }
 .feature_linking_wrapper_sub-title {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--white);
   line-height: 160%;
+  font-weight: 600;
 }
 .feature_linking_matching_wrapper {
   padding: 70px 120px 80px 56px;

@@ -51,23 +51,24 @@
 
 .feature_maintaining_relationship_wrapper_background {
   position: absolute;
-  width: 60%;
+  width: 45%;
   left: 56px;
-  top: 147px;
+  top: 115px;
 }
 
 .feature_maintaining_relationship_wrapper_title {
   font-size: 56px;
   color: var(--white);
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 24px;
   line-height: 120%;
 }
 
 .feature_maintaining_relationship_wrapper_subtitle {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--white);
   line-height: 160%;
+  font-weight: 600;
 }
 
 .feature_maintaining_relationship_wrapper_upcoming {
@@ -350,7 +351,7 @@
   }
 
   .feature_maintaining_relationship_wrapper_background {
-    top: 109px;
+    top: 96px;
     left: 24px;
     width: calc(100% - 48px);
   }
@@ -532,7 +533,7 @@
   }
 
   .feature_maintaining_relationship_wrapper_background {
-    width: 65%;
+    width: 85%;
   }
 
   #lifelong_wrapper .feature_maintain_relationship_content div p {

@@ -45,20 +45,20 @@
   position: absolute;
   width: 42%;
   left: 56px;
-  top: 198px;
+  top: 178px;
 }
 .feature_children_wrapper_title {
   font-size: 56px;
   color: var(--white);
-  font-weight: bold;
   margin-bottom: 24px;
   line-height: 110%;
-  font-weight: 600;
+  font-weight: 700;
 }
 .feature_children_wrapper_sub-title {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--white);
   line-height: 160%;
+  font-weight: 600;
 }
 .feature_children_wrapper_upcoming {
   padding: 70px 120px 109px 56px;
@@ -129,7 +129,7 @@
     height: 410px;
   }
   .feature_children_wrapper_background {
-    top: 207px;
+    top: 170px;
     left: 24px;
     width: calc(100% - 48px);
   }

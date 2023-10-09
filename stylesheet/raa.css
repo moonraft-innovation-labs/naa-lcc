@@ -33,7 +33,7 @@
   position: absolute;
   width: 42%;
   left: 56px;
-  top: 70px;
+  top: 85px;
 }
 .feature_raa_wrapper_content img {
   height: 500px;
@@ -44,12 +44,13 @@
   color: var(--white);
   margin-bottom: 32px;
   line-height: 120%;
-  font-weight: 600;
+  font-weight: 700;
 }
 .feature_raa_wrapper_sub-title {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--white);
   line-height: 160%;
+  font-weight: 600;
 }
 .feature_raa_wrapper_office {
   display: flex;
