@@ -47,6 +47,21 @@
 .second_sub_title {
   padding-top: 32px;
 }
+
+.legal_links{
+  margin-left: 16px;
+  margin-bottom: 18px;
+}
+
+.legal_links li {
+  list-style-type: disc;
+}
+
+.legal_links li a{
+  text-decoration: none;
+}
+
+
 /* Media Query */
 @media screen and (max-width: 767px) {
   .feature_terms_legal_wrapper {

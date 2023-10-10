@@ -126,8 +126,8 @@
   height: 24px;
 }
 .feature_adoptive_children_wrapper {
-  padding: 40px 0 24px 0;
-  border-bottom: 1px solid rgba(230, 42, 80, 0.2);
+  padding: 40px 0 0 0;
+  /* border-bottom: 1px solid rgba(230, 42, 80, 0.2); */
 }
 .linking_journey_table_details tbody tr {
   border-radius: 30px;
@@ -273,9 +273,9 @@
   .feature_linking_children_wrapper .toggle_linking_children {
     border-bottom: none;
   }
-  .feature_linking_children_wrapper {
+  /* .feature_linking_children_wrapper {
     border-bottom: 1px solid rgba(230, 42, 80, 0.2);
-  }
+  }  */
   .feature_linking_children_wrapper ul li {
     display: block;
   }
