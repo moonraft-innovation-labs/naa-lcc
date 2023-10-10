@@ -16,7 +16,7 @@ document.getElementById("header_wrapper_mobile_toggle").onclick = function () {
           
              if (setClasses) {
               this.classList.toggle("active");
-              this.nextElementSibling.classList.toggle("show");
+              this.nextElementSibling.nextElementSibling.classList.toggle("show");
           }
       }
   }

@@ -181,6 +181,7 @@
   border-radius: 16px 16px 0 0;
 }
 .video_title {
+  display: block;
   padding: 32px;
   font-size: 24px;
   font-style: normal;
