@@ -63,11 +63,12 @@
 .raa_link:hover,
 .considering_adopting_link:hover {
   background-color: var(--maroonFlush);
+  text-decoration: underline;
 }
 .video_banner_link:active,
 .raa_link:active,
 .considering_adopting_link:active {
-  background-color: var(--maroonFlushActive);
+  background-color: var(--yellowOrange);
 }
 .progress_trigger {
   height: 8px;

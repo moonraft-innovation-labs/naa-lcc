@@ -104,6 +104,7 @@
   margin-left: 24px;
 }
 .feature_pdf_download a {
+  display: flex;
   color: var(--white);
   background-color: var(--amaranth);
   padding: 16px 32px;
@@ -118,9 +119,12 @@
   width: 16px;
   height: 16px;
   margin-left: 8px;
-  background-image: url("../assets/images/download_icon.png");
+  background-image: url("../assets/images/view_pdf.svg");
   background-repeat: no-repeat;
   background-size: contain;
+}
+.feature_pdf_download a:focus::after {
+  fill: var(--black);
 }
 .feature_pdf_download_wrapper {
   display: flex;

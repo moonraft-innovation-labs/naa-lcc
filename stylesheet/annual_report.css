@@ -79,7 +79,7 @@
   padding-bottom: 40px;
 }
 .feature_annual_report_links a::after,
-.reports_links::after,
+/* .reports_links::after, */
 .annual_reports_link::after,
 .annual_reports_link_2023::after {
   content: "";

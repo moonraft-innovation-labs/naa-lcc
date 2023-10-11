@@ -182,7 +182,7 @@
 }
 .video_title {
   display: block;
-  padding: 32px;
+  margin: 32px;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
