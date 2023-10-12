@@ -66,8 +66,8 @@
 .children_journey_subtitle {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 56px;
-  border-bottom: 1px solid rgba(230, 42, 80, 0.2);
+   /* padding-bottom: 56px; */
+  /*border-bottom: 1px solid rgba(230, 42, 80, 0.2); */
 }
 .children_journey_subtitle p {
   font-size: 18px;
