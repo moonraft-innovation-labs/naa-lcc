@@ -324,6 +324,9 @@
     padding: 0px;
     font-size: 20px;
   }
+  .video_title {
+    margin-bottom: 0;
+  }
 }
 /* Media Query */
 @media screen and (min-width: 768px) and (max-width: 1430px) {

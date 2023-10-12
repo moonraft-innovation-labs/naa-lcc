@@ -346,6 +346,9 @@
 }
 /* Media Query */
 @media screen and (max-width: 767px) {
+  .title_maintain a {
+    width: 85%;
+  }
   .feature_maintain_relationship_support_wrapper_links,
   .title_desktop {
     display: none !important;
@@ -412,6 +415,7 @@
   .title_maintain::before {
     height: 36px;
     width: 0px;
+    padding-right: 0;
   }
 
   .title_maintain {

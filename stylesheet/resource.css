@@ -159,6 +159,13 @@
 }
 /* Media Query */
 @media screen and (max-width: 767px) {
+  .feature_reports_wrapper_content a {
+    display: inline-block;
+  }
+  .feature_reports_wrapper_content a::after {
+    position: relative;
+    top: 6px
+  }
   .feature_resource_wrapper {
     display: block;
   }
