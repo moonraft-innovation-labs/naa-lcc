@@ -770,7 +770,9 @@ header:hover + main > .feature_video_banner_wrapper {
 .feature_raa_wrapper_content_title,
 .feature_linking_children_wrapper .title,
 .feature_linking_children_wrapper .title a,
-.title_maintain a {
+.title_maintain a,
+.feature_terms_legal_wrapper h2,
+.feature_terms_legal_wrapper h3 {
   font-family: Urbanist-SemiBold;
 }
 
@@ -795,7 +797,8 @@ table tr td,
 ul li,
 ol li,
 .feature_early_pre_wrapper_sub-title,
-.feature_terms_legal_wrapper p {
+.feature_terms_legal_wrapper p,
+.feature_terms_legal_wrapper ul li {
   font-family: Manrope-Regular;
 }
 
