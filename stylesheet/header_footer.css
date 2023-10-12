@@ -1047,3 +1047,173 @@ ol li,
   position: absolute;
 }
 /* Spoken Only Texts Css */
+/* Media Query of Edge Case */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .header_wrapper_logo {
+    padding: 16px 24px;
+  }
+  .header_wrapper_nav {
+    padding: 0 24px;
+  }
+  .footer {
+    padding: 62px 24px;
+  }
+  .footer_wrapper_logo {
+    display: block;
+    padding-bottom: 32px;
+  }
+  .footer_logo {
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  .footer_wrapper_logo img {
+    margin-right: 0;
+    width: 130px;
+    height: 40px;
+  }
+  .footer_wrapper_logo_links li {
+    margin-right: 0px !important;
+  }
+  .footer_wrapper_copy_rights {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .footer_wrapper_copy_rights_links {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .footer_wrapper_copy_rights p {
+    width: 100%;
+  }
+  .footer_wrapper_copy_rights_links a:first-child {
+    margin-right: calc(24% - 20px);
+  }
+  .footer_wrapper_copy_rights_links a:nth-child(2) {
+    margin-right: calc(18% - 20px);
+  }
+  .feature_children_adopt_wrapper {
+    padding: 100px 24px 50px;
+    align-items: flex-start;
+  }
+  .feature_raa_wrapper {
+    padding: 100px 24px 105px;
+    align-items: flex-start;
+  }
+  .feature_children_adopt_wrapper_image img,
+  .feature_raa_wrapper_image img {
+    width: 270px;
+    height: 372px;
+  }
+  .feature_raa_wrapper_content {
+    margin-left: 30px;
+    width: 100%;
+  }
+  .feature_children_adopt_wrapper_content {
+    margin-right: 30px;
+    width: 100%;
+  }
+  .feature_video_banner_title_wrapper {
+    left: 24px;
+  }
+  .header_wrapper_logo_links .header_wrapper_logo_button {
+    margin-right: 0;
+  }
+  .feature_about_us_wrapper_links,
+  .feature_our_team_wrapper_links,
+  .feature_contact_us_wrapper_links,
+  .feature_resource_wrapper_links,
+  .feature_professional_wrapper_links,
+  .feature_early_pre_wrapper_links,
+  .feature_linking_wrapper_links,
+  .feature_maintain_relationship_support_wrapper_links,
+  .feature_children_wrapper_links,
+  .feature_adoption_support_wrapper_links,
+  .feature_centre_excellence_wrapper_links,
+  .feature_commissioning_wrapper_links {
+    padding: 48px 15px 0px 15px !important;
+  }
+  .active_about_us a::after,
+  .active_profession a::after {
+    content: none !important;
+  }
+  .feature_about_us_wrapper_upcoming,
+  .feature_our_team_wrapper_upcoming,
+  .feature_contact_us_wrapper_upcoming,
+  .feature_reports_profession_wrapper,
+  .feature_professional_wrapper_upcoming,
+  .feature_early_pre_wrapper_upcoming,
+  .feature_linking_matching_wrapper,
+  .feature_maintaining_relationship_wrapper_upcoming,
+  .feature_children_wrapper_upcoming,
+  .feature_adoption_support_wrapper_upcoming,
+  .feature_centre_excellence_wrapper_upcoming,
+  .feature_commissioning_wrapper_upcoming {
+    padding: 70px 30px 80px 30px !important;
+  }
+  .about_us_content_header_items {
+    grid-column-gap: 30px !important;
+  }
+  .early_pre_sub_heading,
+  .feature_national_early_permenance_subheading,
+  .feature_maintaing_relationship_links_details ul,
+  #letter_swap_wrapper .feature_maintain_relationship_content div,
+  #lifelong_wrapper .feature_maintain_relationship_content div,
+  .adoption_support_journey_subtitle,
+  .feature_centre_excellence_wrapper_development_terms,
+  .centre_excellence_journey_subtitle,
+  .centre_excellence_project_board_sub_title {
+    column-gap: 30px !important;
+  }
+  .feature_our_team_wrapper_background,
+  .feature_about_us_wrapper_background,
+  .feature_contact_us_wrapper_background,
+  .feature_linking_wrapper_background,
+  .feature_maintaining_relationship_wrapper_background,
+  .feature_adoption_support_wrapper_background,
+  .feature_centre_excellence_wrapper_background {
+    left: 30px !important;
+    width: 85% !important;
+  }
+  .feature_resource_wrapper_background,
+  .feature_professional_wrapper_background,
+  .feature_early_pre_wrapper_background,
+  .feature_children_wrapper_background,
+  .feature_commissioning_wrapper_background {
+    left: 30px !important;
+    width: 65% !important;
+  }
+  .feature_reports_wrapper_detail p:first-child,
+  .feature_early_pre_releated_videos_wrapper li:first-child,
+  .feature_linking_children_wrapper ul li:first-child,
+  .commissioning_journey_subtitle p:first-child {
+    margin-right: 30px !important;
+  }
+  .feature_pdf_download a {
+    white-space: nowrap;
+  }
+  .feature_early_pre_wrapper_background,
+  .feature_linking_wrapper_background {
+    top: 110px !important;
+  }
+  .maintaining_relationship_journey_subtitle,
+  .display_grid_IASA {
+    gap: 30px !important;
+  }
+  #title_maintain_iasa::before,
+  #title_maintain_links::before {
+    height: 80px;
+  }
+  .children_journey_table_details {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .feature_children_wrapper_details,
+  .feature_adoption_support_wrapper_details {
+    overflow: hidden;
+  }
+  .video_modal_iframe {
+    width: calc(100% - 300px) !important;
+  }
+}
+/* Media Query of Edge Case */

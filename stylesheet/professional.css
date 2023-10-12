@@ -268,3 +268,14 @@
     width: 65%;
   }
 }
+/* Media Query of Edge Case */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .upcoming_events_details_card > img {
+    width: 100%;
+    border-radius: 30px;
+  }
+  .upcoming_events_details_card {
+    display: block;
+  }
+}
+/* Media Query of Edge Case */

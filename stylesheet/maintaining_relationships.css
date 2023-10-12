@@ -186,7 +186,7 @@
 .feature_maintaing_relationship_links_details a::before {
   content: "";
   display: inline-block;
-  width: 4px;
+  padding-right: 4px;
   /* height: 24px; */
   margin-right: 20px;
   background-color: var(--royalPurple);
@@ -223,7 +223,7 @@
 .title_maintain::before {
   content: "";
   display: inline-block;
-  width: 4px;
+  padding-right: 4px;
   height: 44px;
   margin-right: 20px;
   background-color: var(--royalPurple);
@@ -544,6 +544,6 @@
   }
 
   #lifelong_wrapper .feature_maintain_relationship_content div p {
-    width: 44%;
+    width: 100%;
   }
 }
