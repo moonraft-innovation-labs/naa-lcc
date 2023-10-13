@@ -209,7 +209,7 @@
 }
 
 .video_modal_iframe {
-  width: calc(100% - 800px);
+  width: calc(100% - 600px);
   position: relative;
 }
 .close_icon {
@@ -339,4 +339,12 @@
   .feature_early_pre_wrapper_background {
     width: 65%;
   }
+  .feature_pdf_download a {
+    white-space: nowrap;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+  .video_modal_iframe {
+    width: calc(100% - 400px) !important;
+}
 }

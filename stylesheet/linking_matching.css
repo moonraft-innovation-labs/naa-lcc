@@ -298,3 +298,8 @@
     width: 46%;
   }
 }
+@media screen and (min-width: 1020px) and (max-width: 1300px) {
+  .feature_linking_children_wrapper ul li:first-child {
+    margin-right: 0px;
+  }
+}

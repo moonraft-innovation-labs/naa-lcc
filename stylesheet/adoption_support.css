@@ -118,7 +118,7 @@
   border-radius: 0 0 12px 0;
 }
 .adoption_support_journey_table_details {
-  padding-top: 64px;
+  margin-top: 64px;
 }
 .adoption_support_journey_table_details p {
   font-size: 18px;
@@ -200,5 +200,8 @@
   }
   .feature_adoption_support_wrapper_background {
     width: 65%;
+  }
+  #main {
+    overflow-x: hidden;
   }
 }

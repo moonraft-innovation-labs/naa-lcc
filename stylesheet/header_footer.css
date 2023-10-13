@@ -114,6 +114,7 @@ button {
   margin-left: 10px;
   font-size: 16px;
   border-radius: 30px;
+  margin-right: 0;
 }
 
 .header_wrapper_logo_links .header_wrapper_logo_button:hover {
@@ -810,7 +811,7 @@ ol li,
 
 .linking_journey_table_details .table_title,
 .active_profession a,
-.feature_raa_wrapper_links,
+.feature_raa_wrapper_links a,
 .feature_reports_wrapper_content a,
 .feature_report_forward_content .title,
 .raa,
@@ -920,7 +921,8 @@ ol li,
 .feature_linking_children_wrapper .title a:focus,
 .feature_maintaing_relationship_links_details a:focus,
 .title_maintain a:focus,
-.adoption_support_journey_table_details a:focus {
+.adoption_support_journey_table_details a:focus,
+.feature_raa_wrapper_links a:focus {
   display: inline-block;
   background-color: var(--yellowOrange);
   outline: none;
